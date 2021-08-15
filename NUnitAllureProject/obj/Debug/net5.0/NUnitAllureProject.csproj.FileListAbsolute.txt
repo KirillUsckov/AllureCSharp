@@ -105,3 +105,5 @@ P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\obj\Debug\net5.0\
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\nunit.engine.netstandard.dll
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\Microsoft.DotNet.InternalAbstractions.dll
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\Microsoft.Build.dll
+P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\Microsoft.Build.Framework.dll
