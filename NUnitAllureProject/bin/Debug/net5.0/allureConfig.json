@@ -1,0 +1,11 @@
+﻿{
+  "allure": {
+    "allure-directory": "allure-results",
+    "title": "a1qa",
+    "report":  "a1qa-report"
+  },
+  "launch": {
+    "name": "a1qa Report",
+    "description":  "desc"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "uuid": "d7775c29-f45a-4a28-bddc-49553ec31aa0-tr-0-1004",
+  "historyId": "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+  "fullName": "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KAR-KARI4"
+    },
+    {
+      "name": "testClass",
+      "value": "NUnitAllureProject.Tests.SearchingTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckResultInfotableWasOpeneForSearchingItem"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAllureProject.Tests.SearchingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "feature",
+      "value": "Searching"
+    },
+    {
+      "name": "suite",
+      "value": "SearchingPage"
+    }
+  ],
+  "links": [],
+  "name": "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : chrome not reachable\n  (Session info: chrome=92.0.4515.131)",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at LittleFramework.Objects.Base.BasePage.FindElements(By locator, TimeSpan timeout) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Base\\BasePage.cs:line 60\r\n   at LittleFramework.Objects.Base.BasePage.FindElements(By locator) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Base\\BasePage.cs:line 71\r\n   at LittleFramework.Objects.Pages.SearchingResultsPage.IsTableWithTitlePresent(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Pages\\SearchingResultsPage.cs:line 25\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_o(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\Steps\\SearchingResultsPageSteps.cs:line 25\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_w_0(Object[] )\r\n   at Autotests.Steps.SearchingResultsPageSteps.CheckResultPageWithInfotable(String title)\r\n   at NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(String query, String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\SearchingTests.cs:line 47"
+  },
+  "stage": "finished",
+  "description": "Is Infotable displayed after searching item\n",
+  "steps": [
+    {
+      "name": "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : chrome not reachable\n  (Session info: chrome=92.0.4515.131)",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at LittleFramework.Objects.Base.BasePage.FindElements(By locator, TimeSpan timeout) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Base\\BasePage.cs:line 60\r\n   at LittleFramework.Objects.Base.BasePage.FindElements(By locator) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Base\\BasePage.cs:line 71\r\n   at LittleFramework.Objects.Pages.SearchingResultsPage.IsTableWithTitlePresent(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Pages\\SearchingResultsPage.cs:line 25\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_o(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\Steps\\SearchingResultsPageSteps.cs:line 25\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_w_0(Object[] )\r\n   at Autotests.Steps.SearchingResultsPageSteps.CheckResultPageWithInfotable(String title)\r\n   at NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(String query, String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\SearchingTests.cs:line 47"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Go to base URL",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1629039284082,
+          "stop": 1629039285199
+        },
+        {
+          "name": "Check is main page opened",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1629039285199,
+          "stop": 1629039285233
+        },
+        {
+          "name": "Search item",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1629039285233,
+          "stop": 1629039285520
+        },
+        {
+          "name": "Check is infotable for current searching exist",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "chrome not reachable\n  (Session info: chrome=92.0.4515.131)",
+            "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at LittleFramework.Objects.Base.BasePage.FindElements(By locator, TimeSpan timeout) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Base\\BasePage.cs:line 60\r\n   at LittleFramework.Objects.Base.BasePage.FindElements(By locator) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Base\\BasePage.cs:line 71\r\n   at LittleFramework.Objects.Pages.SearchingResultsPage.IsTableWithTitlePresent(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Pages\\SearchingResultsPage.cs:line 25\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_o(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\Steps\\SearchingResultsPageSteps.cs:line 25\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1629039285520,
+          "stop": 1629039330359
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9aa43c6092fa4865b962313be735f770-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1629039283001,
+      "stop": 1629039330398
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Убер"
+    },
+    {
+      "name": "Param #1",
+      "value": "Убер"
+    }
+  ],
+  "start": 1629039283001,
+  "stop": 1629039330398
+}
