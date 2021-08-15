@@ -2,6 +2,7 @@
 using LittleFramework.Objects;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Remote;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -42,7 +43,7 @@ namespace LittleFramework
             options.AddArgument("disable-infobars");
             options.AddArgument("--disable-extensions");
             options.AddAdditionalCapability("useAutomationExtension", false);
-            Driver = new ChromeDriver(options);
+            Driver = new RemoteWebDriver(options);
             Driver.Manage().Window.Maximize();
         }
 
