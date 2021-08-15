@@ -9,3 +9,4 @@ P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\bin\Debug\net5.0\Lit
 P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\obj\Debug\net5.0\LittleFramework.dll
 P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\obj\Debug\net5.0\ref\LittleFramework.dll
 P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\obj\Debug\net5.0\LittleFramework.pdb
+P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\obj\Debug\net5.0\LittleFramework.csproj.AssemblyReference.cache
