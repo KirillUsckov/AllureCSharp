@@ -142,11 +142,7 @@
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[4.0.0, )"
-            },
-            "NUnitTestAdapter.WithFramework": {
-              "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[3.13.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

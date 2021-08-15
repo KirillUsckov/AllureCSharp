@@ -1,9 +1,5 @@
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\NUnit3.TestAdapter.dll
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\NUnit3.TestAdapter.pdb
-P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\nunit.engine.dll
-P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\nunit.engine.api.dll
-P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\nunit.engine.core.dll
-P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\testcentric.engine.metadata.dll
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\NUnitAllureProject.deps.json
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\NUnitAllureProject.runtimeconfig.json
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\NUnitAllureProject.runtimeconfig.dev.json
@@ -25,10 +21,6 @@ P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\NuGet.Frameworks.dll
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\nunit.framework.dll
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\NUnit.Allure.dll
-P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\NUnit.VisualStudio.TestAdapter.dll
-P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\nunit.core.dll
-P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\nunit.core.interfaces.dll
-P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\nunit.util.dll
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\WebDriver.Support.dll
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\WebDriver.dll
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -110,3 +102,6 @@ P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\obj\Debug\net5.0\
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\AspectInjector.Broker.dll
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\NUnit.Allure.Steps.dll
 P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\obj\Debug\net5.0\NUnitAllureProject.csproj.AssemblyReference.cache
+P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\nunit.engine.netstandard.dll
+P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\Microsoft.DotNet.InternalAbstractions.dll
+P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
