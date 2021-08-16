@@ -1,0 +1,106 @@
+{
+  "uuid": "f1581d63-4566-42bf-930a-e3703d1f16d5-tc-0-1002",
+  "name": "NUnitAllureProject.Tests.SearchingTests.CheckSearchingPageWasOpened",
+  "children": [
+    "592d7da3-9027-44ee-bd56-9b5a10d8d63b-tr-0-1007"
+  ],
+  "befores": [
+    {
+      "name": "AllureSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629139578811,
+      "stop": 1629139578811
+    },
+    {
+      "name": "Init",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629139578811,
+      "stop": 1629139578811
+    },
+    {
+      "name": "GoToBaseUrl",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629139578811,
+      "stop": 1629139578811
+    },
+    {
+      "name": "InitPages",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629139578811,
+      "stop": 1629139578811
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629139578811,
+      "stop": 1629139578811
+    },
+    {
+      "name": "Finally",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629139578811,
+      "stop": 1629139578811
+    }
+  ],
+  "links": [],
+  "start": 1629139575478,
+  "stop": 1629139578815
+}

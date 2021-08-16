@@ -1,0 +1,119 @@
+{
+  "uuid": "06080043-39d2-4474-aeb7-455edb0b6359-tr-0-1001",
+  "historyId": "NUnitAllureProject.Tests.MainPageTests.CheckMainPageCanBeOpened",
+  "fullName": "NUnitAllureProject.Tests.MainPageTests.CheckMainPageCanBeOpened",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KAR-KARI4"
+    },
+    {
+      "name": "testClass",
+      "value": "NUnitAllureProject.Tests.MainPageTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckMainPageCanBeOpened"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAllureProject.Tests.MainPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "suite",
+      "value": "MainPage"
+    },
+    {
+      "name": "feature",
+      "value": "MainPage"
+    }
+  ],
+  "links": [
+    {
+      "name": "https://yandex.ru",
+      "url": "https://yandex.ru",
+      "type": "link"
+    }
+  ],
+  "name": "CheckMainPageCanBeOpened",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckMainPageCanBeOpened"
+  },
+  "stage": "finished",
+  "description": "Check can the main page be opened\n",
+  "steps": [
+    {
+      "name": "CheckMainPageCanBeOpened",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Go to base URL",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1629139572556,
+          "stop": 1629139573626
+        },
+        {
+          "name": "Check is main page opened",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1629139573633,
+          "stop": 1629139573707
+        }
+      ],
+      "attachments": [
+        {
+          "name": "637647471739751397.png",
+          "source": "7fb4c3efe6d741b591ec511ec0e99c42-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "b06db8ece0c74e7886c6d2d3d67bc4ca-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1629139572555,
+      "stop": 1629139574363
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1629139572555,
+  "stop": 1629139574368
+}
