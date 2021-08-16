@@ -1,4 +1,5 @@
 ﻿using AllureTask.Steps;
+using NLog.Fluent;
 using NUnit.Allure.Attributes;
 using NUnit.Allure.Core;
 using NUnit.Framework;
@@ -27,6 +28,7 @@ namespace NUnitAllureProject.Tests
         [AllureFeature("MainPage")]
         public void CheckMainPageCanBeOpened()
         {
+            Log.Info("Test CheckMainPageCanBeOpened");
             mainPageSteps.PageWasOpened();
         }
     }

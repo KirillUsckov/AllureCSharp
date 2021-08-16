@@ -1,5 +1,6 @@
 ﻿using LittleFramework.Objects.Base;
 using LittleFramework.Objects.Locators;
+using NLog.Fluent;
 using OpenQA.Selenium;
 
 namespace LittleFramework.Objects.Pages
@@ -22,6 +23,7 @@ namespace LittleFramework.Objects.Pages
 
         public bool IsTableWithTitlePresent(string title)
         {
+            Log.Info($"Check is table with title '{title}' exist");
             return FindElements(SearchingResultPageElements.PreviewCard(title)).Count > 0;
         }
     }

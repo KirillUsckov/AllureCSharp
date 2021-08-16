@@ -1,5 +1,6 @@
 ﻿using LittleFramework.Objects.Base;
 using LittleFramework.Objects.Locators;
+using NLog.Fluent;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
@@ -23,11 +24,13 @@ namespace LittleFramework.Objects.Pages
 
         public void TypeTextInSearchingTextBox(string text)
         {
+            Log.Info("Type text in searching textbox");
             app.TextBox(SearchingPagePartElements.SearchTextBox).ClearAndSetText(text);
         }
 
         public void ClickSearchButton()
         {
+            Log.Info("Click search button");
             FindElement(SearchingPagePartElements.SerachButton).Click();
         }
     }
