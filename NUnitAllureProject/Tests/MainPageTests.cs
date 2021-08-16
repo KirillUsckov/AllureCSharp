@@ -33,7 +33,12 @@ namespace NUnitAllureProject.Tests
         {
             log.Info("Test CheckMainPageCanBeOpened");
 
-            mainPageSteps.PageWasOpened();
+            try
+            {
+                mainPageSteps.PageWasOpened();
+            } catch { }
+
+            MakeScreenshot();
         }
     }
 }

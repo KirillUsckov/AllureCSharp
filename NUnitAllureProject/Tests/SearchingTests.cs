@@ -52,7 +52,14 @@ namespace NUnitAllureProject.Tests
             log.Info("Test case CheckResultInfotableWasOpeneForSearchingItem");
             mainPageSteps.PageWasOpened();
             searchingSteps.SearchItem(query);
-            searchingResultsPageSteps.CheckResultPageWithInfotable(title);
+
+            try
+            {
+                searchingResultsPageSteps.CheckResultPageWithInfotable(title);
+            }
+            catch { }
+
+            MakeScreenshot();
         }
 
         [Test]
@@ -66,7 +73,13 @@ namespace NUnitAllureProject.Tests
             log.Info("Test case CheckSearchingPageWasOpened");
             mainPageSteps.PageWasOpened();
             searchingSteps.SearchItem("Google");
-            searchingPagePart.AssertIsVisible();
+            try
+            {
+                searchingPagePart.AssertIsVisible();
+            }
+            catch { }
+
+            MakeScreenshot();
         }
     }
 }
