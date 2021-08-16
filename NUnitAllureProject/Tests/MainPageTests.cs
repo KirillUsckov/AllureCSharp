@@ -28,6 +28,7 @@ namespace NUnitAllureProject.Tests
         [AllureTag("Regression")]
         [AllureSuite("MainPage")]
         [AllureFeature("MainPage")]
+        [AllureLink("https://yandex.ru")]
         public void CheckMainPageCanBeOpened()
         {
             log.Info("Test CheckMainPageCanBeOpened");

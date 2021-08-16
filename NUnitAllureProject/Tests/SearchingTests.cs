@@ -43,6 +43,7 @@ namespace NUnitAllureProject.Tests
         [AllureTag("Regression")]
         [AllureFeature("Searching")]
         [AllureSuite("SearchingPage")]
+        [AllureLink("https://yandex.ru")]
         public void CheckResultInfotableWasOpeneForSearchingItem(string query, string title)
         {
             log.Info("Test case CheckResultInfotableWasOpeneForSearchingItem");
@@ -56,6 +57,7 @@ namespace NUnitAllureProject.Tests
         [AllureTag("Regression")]
         [AllureFeature("Searching")]
         [AllureSuite("SearchingPage")]
+        [AllureLink("https://yandex.ru")]
         public void CheckSearchingPageWasOpened()
         {
             log.Info("Test case CheckSearchingPageWasOpened");
