@@ -1,0 +1,108 @@
+{
+  "uuid": "10e98015-bcb0-4c8c-8336-3af328a7f53a-tr-0-1001",
+  "historyId": "NUnitAllureProject.Tests.MainPageTests.CheckMainPageCanBeOpened",
+  "fullName": "NUnitAllureProject.Tests.MainPageTests.CheckMainPageCanBeOpened",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KAR-KARI4"
+    },
+    {
+      "name": "testClass",
+      "value": "NUnitAllureProject.Tests.MainPageTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckMainPageCanBeOpened"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAllureProject.Tests.MainPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "suite",
+      "value": "MainPage"
+    },
+    {
+      "name": "feature",
+      "value": "MainPage"
+    }
+  ],
+  "links": [],
+  "name": "CheckMainPageCanBeOpened",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckMainPageCanBeOpened"
+  },
+  "stage": "finished",
+  "description": "Check can the main page be opened\n",
+  "steps": [
+    {
+      "name": "CheckMainPageCanBeOpened",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Go to base URL",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1629135708762,
+          "stop": 1629135710511
+        },
+        {
+          "name": "Check is main page opened",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1629135710540,
+          "stop": 1629135710647
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bd215c53d7c04ddd8d4f627c50a0a943-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1629135708760,
+      "stop": 1629135710906
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1629135708760,
+  "stop": 1629135710911
+}

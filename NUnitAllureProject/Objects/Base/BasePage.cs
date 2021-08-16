@@ -1,4 +1,5 @@
 ﻿using LittleFramework.Objects.Constants;
+using NLog;
 using NLog.Fluent;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
@@ -11,6 +12,7 @@ namespace LittleFramework.Objects.Base
     public class BasePage
     {
         protected readonly Application app;
+        private readonly Logger log = LogManager.GetCurrentClassLogger();
 
         public BasePage()
         {
@@ -25,7 +27,7 @@ namespace LittleFramework.Objects.Base
         }
         public void AssertIsVisible()
         {
-            Log.Info("Assert is visible");
+            log.Info("Assert is visible");
             try
             {
                 new WebDriverWait(app.Driver, Timeout.Seconds.OneHundred)
@@ -33,14 +35,14 @@ namespace LittleFramework.Objects.Base
             }
             catch(WebDriverTimeoutException e)
             {
-                Log.Error("Page wasn't opened:\n" + e);
+                log.Error("Page wasn't opened:\n" + e);
                 throw new Exception("Page wasn't opened.", e);
             }
         }
 
         public IWebElement FindElement(By locator, TimeSpan timeout)
         {
-            Log.Info("Find element with locator: " + locator);
+            log.Info("Find element with locator: " + locator);
             try
             {
                 new WebDriverWait(app.Driver, timeout).Until(ExpectedConditions.ElementIsVisible(locator));
@@ -48,7 +50,7 @@ namespace LittleFramework.Objects.Base
             }
             catch (WebDriverTimeoutException e)
             {
-                Log.Error("Error while element searching:\n" + e);
+                log.Error("Error while element searching:\n" + e);
                 return app.Driver.FindElement(locator);
             }
         }
@@ -60,7 +62,7 @@ namespace LittleFramework.Objects.Base
 
         public IReadOnlyCollection<IWebElement> FindElements(By locator, TimeSpan timeout)
         {
-            Log.Info("Find elements with locator: " + locator);
+            log.Info("Find elements with locator: " + locator);
             try
             {
                 new WebDriverWait(app.Driver, timeout).Until(ExpectedConditions.ElementIsVisible(locator));
@@ -68,7 +70,7 @@ namespace LittleFramework.Objects.Base
             }
             catch (WebDriverTimeoutException e)
             {
-                Log.Error("Error while elements searching:\n" + e);
+                log.Error("Error while elements searching:\n" + e);
                 return app.Driver.FindElements(locator);
             }
         }

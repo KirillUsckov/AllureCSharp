@@ -1,0 +1,104 @@
+{
+  "uuid": "440e267a-7958-4cc8-8db4-a413cedf980b-tc-0-1000",
+  "name": "NUnitAllureProject.Tests.MainPageTests.CheckMainPageCanBeOpened",
+  "children": [
+    "b662f1c9-e5cc-47f7-84ce-e77a4a0f1afb-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "AllureSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629135886318,
+      "stop": 1629135886318
+    },
+    {
+      "name": "Init",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629135886319,
+      "stop": 1629135886319
+    },
+    {
+      "name": "GoToBaseUrl",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629135886319,
+      "stop": 1629135886319
+    },
+    {
+      "name": "InitPages",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629135886319,
+      "stop": 1629135886319
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629135886319,
+      "stop": 1629135886319
+    },
+    {
+      "name": "AddLog",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629135886319,
+      "stop": 1629135886319
+    }
+  ],
+  "links": [],
+  "start": 1629135882999,
+  "stop": 1629135886357
+}

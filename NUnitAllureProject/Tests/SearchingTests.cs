@@ -1,5 +1,6 @@
 using AllureTask.Steps;
 using Autotests.Steps;
+using NLog;
 using NLog.Fluent;
 using NUnit.Allure.Attributes;
 using NUnit.Allure.Core;
@@ -15,6 +16,7 @@ namespace NUnitAllureProject.Tests
         private MainPageSteps mainPageSteps;
         private SearchingSteps searchingSteps;
         private SearchingResultsPageSteps searchingResultsPageSteps;
+        private readonly Logger log = LogManager.GetCurrentClassLogger();
 
         public SearchingTests() : base()
         {
@@ -43,7 +45,7 @@ namespace NUnitAllureProject.Tests
         [AllureSuite("SearchingPage")]
         public void CheckResultInfotableWasOpeneForSearchingItem(string query, string title)
         {
-            Log.Info("Test case CheckResultInfotableWasOpeneForSearchingItem");
+            log.Info("Test case CheckResultInfotableWasOpeneForSearchingItem");
             mainPageSteps.PageWasOpened();
             searchingSteps.SearchItem(query);
             searchingResultsPageSteps.CheckResultPageWithInfotable(title);
@@ -56,7 +58,7 @@ namespace NUnitAllureProject.Tests
         [AllureSuite("SearchingPage")]
         public void CheckSearchingPageWasOpened()
         {
-            Log.Info("Test case CheckSearchingPageWasOpened");
+            log.Info("Test case CheckSearchingPageWasOpened");
             mainPageSteps.PageWasOpened();
             searchingSteps.SearchItem("Google");
         }

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Allure.Commons;
 using LittleFramework;
 using LittleFramework.Objects.Base;
+using NLog.Fluent;
 using NUnit.Allure.Core;
 using NUnit.Allure.Steps;
 using NUnit.Framework;
@@ -49,6 +50,16 @@ namespace NUnitAllureProject.Tests.Steps
         public void TearDown()
         {
             application.CloseDriver();
+        }
+
+        [TearDown, Order(1)]
+        public void AddLog()
+        {
+            var path = Path.Combine(application.Configuration.DirPath + "\\logs\\testLogs.log");
+
+
+            AllureLifecycle.Instance.AddAttachment(path);
+
         }
     }
 }

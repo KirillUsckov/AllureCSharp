@@ -1,0 +1,123 @@
+{
+  "uuid": "bf391aaf-c341-438d-8a4a-c6e1f847925b-tr-0-1007",
+  "historyId": "NUnitAllureProject.Tests.SearchingTests.CheckSearchingPageWasOpened",
+  "fullName": "NUnitAllureProject.Tests.SearchingTests.CheckSearchingPageWasOpened",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KAR-KARI4"
+    },
+    {
+      "name": "testClass",
+      "value": "NUnitAllureProject.Tests.SearchingTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSearchingPageWasOpened"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAllureProject.Tests.SearchingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "feature",
+      "value": "Searching"
+    },
+    {
+      "name": "suite",
+      "value": "SearchingPage"
+    }
+  ],
+  "links": [],
+  "name": "CheckSearchingPageWasOpened",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSearchingPageWasOpened"
+  },
+  "stage": "finished",
+  "description": "Is Searching result page displayed after searching item\n",
+  "steps": [
+    {
+      "name": "CheckSearchingPageWasOpened",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Go to base URL",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1629136157072,
+          "stop": 1629136158571
+        },
+        {
+          "name": "Check is main page opened",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1629136158575,
+          "stop": 1629136158605
+        },
+        {
+          "name": "Search item",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1629136158605,
+          "stop": 1629136159097
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f396f554a6a14fe2aefa0924cfba1d96-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1629136157072,
+      "stop": 1629136159365
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1629136157072,
+  "stop": 1629136159365
+}

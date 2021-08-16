@@ -1,0 +1,42 @@
+2021-08-16 20:41:50.5128 INFO Test CheckMainPageCanBeOpened
+2021-08-16 20:42:00.9013 INFO Test CheckMainPageCanBeOpened
+ -------------- Info (2021-08-16 20:46:09.2138) --------------
+ 
+ Call Site: NUnitAllureProject.Tests.MainPageTests.CheckMainPageCanBeOpened
+ Exception Type: 
+ Exception Message: 
+ Stack Trace: 
+ Additional Info: Test CheckMainPageCanBeOpened
+
+ -------------- Info (2021-08-16 20:46:13.9383) --------------
+ 
+ Call Site: NUnitAllureProject.Tests.SearchingTests.CheckSearchingPageWasOpened
+ Exception Type: 
+ Exception Message: 
+ Stack Trace: 
+ Additional Info: Test case CheckSearchingPageWasOpened
+
+ -------------- Info (2021-08-16 20:46:14.0804) --------------
+ 
+ Call Site: LittleFramework.Objects.Pages.SearchingPagePart.TypeTextInSearchingTextBox
+ Exception Type: 
+ Exception Message: 
+ Stack Trace: 
+ Additional Info: Type text in searching textbox
+
+ -------------- Info (2021-08-16 20:46:14.3312) --------------
+ 
+ Call Site: LittleFramework.Objects.Pages.SearchingPagePart.ClickSearchButton
+ Exception Type: 
+ Exception Message: 
+ Stack Trace: 
+ Additional Info: Click search button
+
+ -------------- Info (2021-08-16 20:47:30.3442) --------------
+ 
+ Call Site: NUnitAllureProject.Tests.MainPageTests.CheckMainPageCanBeOpened
+ Exception Type: 
+ Exception Message: 
+ Stack Trace: 
+ Additional Info: Test CheckMainPageCanBeOpened
+
