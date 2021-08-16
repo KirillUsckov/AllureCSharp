@@ -59,7 +59,7 @@ namespace NUnitAllureProject.Tests
             }
             catch { }
 
-            MakeScreenshot();
+            //MakeScreenshot();
         }
 
         [Test]
@@ -79,7 +79,7 @@ namespace NUnitAllureProject.Tests
             }
             catch { }
 
-            MakeScreenshot();
+            //MakeScreenshot();
         }
     }
 }

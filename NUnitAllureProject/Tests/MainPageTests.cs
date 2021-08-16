@@ -38,7 +38,7 @@ namespace NUnitAllureProject.Tests
                 mainPageSteps.PageWasOpened();
             } catch { }
 
-            MakeScreenshot();
+            //MakeScreenshot();
         }
     }
 }
