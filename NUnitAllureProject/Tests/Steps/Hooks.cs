@@ -55,7 +55,6 @@ namespace NUnitAllureProject.Tests.Steps
             ss.SaveAsFile(path, ScreenshotImageFormat.Png);
             AllureLifecycle.Instance.AddAttachment(path);*/
 
-            MakeScreenshot();
             application.CloseDriver();
         }
 
