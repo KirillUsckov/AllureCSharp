@@ -54,21 +54,22 @@ namespace NUnitAllureProject.Tests.Steps
             var path = application.Configuration.DirPath + "\\screenshots\\" + DateTime.Now.Ticks + ".png";
             ss.SaveAsFile(path, ScreenshotImageFormat.Png);
             AllureLifecycle.Instance.AddAttachment(path);*/
+
+            MakeScreenshot();
             application.CloseDriver();
         }
 
         [OneTimeTearDown]
         public void Finally()
         {
-            var path = Path.Combine(application.Configuration.DirPath + "\\screenshots");
+            /*var path = Path.Combine(application.Configuration.DirPath + "\\screenshots");
 
             DirectoryInfo di = new DirectoryInfo(path);
 
             foreach (FileInfo file in di.GetFiles())
             {
                 file.Delete();
-            }
-            
+            }*/
         }
 
         public void MakeScreenshot()
