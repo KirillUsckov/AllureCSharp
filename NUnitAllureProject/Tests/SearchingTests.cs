@@ -1,3 +1,4 @@
+using Allure.Commons;
 using AllureTask.Steps;
 using Autotests.Steps;
 using LittleFramework.Objects.Pages;
@@ -52,14 +53,7 @@ namespace NUnitAllureProject.Tests
             log.Info("Test case CheckResultInfotableWasOpeneForSearchingItem");
             mainPageSteps.PageWasOpened();
             searchingSteps.SearchItem(query);
-
-            try
-            {
-                searchingResultsPageSteps.CheckResultPageWithInfotable(title);
-            }
-            catch { }
-
-            //MakeScreenshot();
+            searchingResultsPageSteps.CheckResultPageWithInfotable(title);
         }
 
         [Test]
@@ -73,13 +67,7 @@ namespace NUnitAllureProject.Tests
             log.Info("Test case CheckSearchingPageWasOpened");
             mainPageSteps.PageWasOpened();
             searchingSteps.SearchItem("Google");
-            try
-            {
-                searchingPagePart.AssertIsVisible();
-            }
-            catch { }
-
-            //MakeScreenshot();
+            searchingPagePart.AssertIsVisible();
         }
     }
 }

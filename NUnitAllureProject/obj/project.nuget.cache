@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rq4HzUXCrDFMJGTV9PZNlubkVx2yb9RDOBqjhGTsIe07s22WXk6lznuVlkW0AURNPldhAlYpRfEalVGMgHsMgQ==",
+  "dgSpecHash": "51FPCZMgpICBGX+K42J9KUO27TiV69sK3wrjdqCHtbmiOC8siz8YT6nMcn6SIFcSoVudJe2wFr1RyX3vhNy3vw==",
   "success": true,
   "projectFilePath": "P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\NUnitAllureProject.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Kirill\\.nuget\\packages\\allure.commons\\3.5.0.4\\allure.commons.3.5.0.4.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\allure.commons\\3.5.0.65\\allure.commons.3.5.0.65.nupkg.sha512",
     "C:\\Users\\Kirill\\.nuget\\packages\\aspectinjector\\2.3.1\\aspectinjector.2.3.1.nupkg.sha512",
     "C:\\Users\\Kirill\\.nuget\\packages\\microsoft.build\\16.5.0\\microsoft.build.16.5.0.nupkg.sha512",
     "C:\\Users\\Kirill\\.nuget\\packages\\microsoft.build.framework\\16.5.0\\microsoft.build.framework.16.5.0.nupkg.sha512",
