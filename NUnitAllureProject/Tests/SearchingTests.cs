@@ -36,11 +36,6 @@ namespace NUnitAllureProject.Tests
             yield return new TestCaseData("яндекс", "яндекс");
         }
 
-        private static IEnumerable<TestCaseData> AddQueryResultData()
-        {
-            yield return new TestCaseData("Google");
-        }
-
         [Test, TestCaseSource("AddQueryResultData")]
         [Description("Is Infotable displayed after searching item")]
         [AllureTag("Regression")]
