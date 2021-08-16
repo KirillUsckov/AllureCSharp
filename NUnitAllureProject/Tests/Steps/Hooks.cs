@@ -61,14 +61,14 @@ namespace NUnitAllureProject.Tests.Steps
         [OneTimeTearDown]
         public void Finally()
         {
-            /*var path = Path.Combine(application.Configuration.DirPath + "\\screenshots");
+            var path = Path.Combine(application.Configuration.DirPath + "\\screenshots");
 
             DirectoryInfo di = new DirectoryInfo(path);
 
             foreach (FileInfo file in di.GetFiles())
             {
                 file.Delete();
-            }*/
+            }
         }
 
         public void MakeScreenshot()
