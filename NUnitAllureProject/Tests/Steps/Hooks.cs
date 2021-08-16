@@ -11,6 +11,7 @@ using NLog.Fluent;
 using NUnit.Allure.Core;
 using NUnit.Allure.Steps;
 using NUnit.Framework;
+using OpenQA.Selenium;
 
 namespace NUnitAllureProject.Tests.Steps
 {
@@ -46,19 +47,27 @@ namespace NUnitAllureProject.Tests.Steps
             navigation.ToBaseUrl();
         }
 
-        [TearDown, Order(0)]
+        [TearDown, Order(1)]
         public void TearDown()
         {
+            Screenshot ss = ((ITakesScreenshot)application.Driver).GetScreenshot();
+            var path = application.Configuration.DirPath + "\\screenshots\\" + DateTime.Now.Ticks + ".png";
+            ss.SaveAsFile(path, ScreenshotImageFormat.Png);
+            AllureLifecycle.Instance.AddAttachment(path);
             application.CloseDriver();
+            Finally();
         }
 
-        [TearDown, Order(1)]
-        public void AddLog()
+        public void Finally()
         {
-            var path = Path.Combine(application.Configuration.DirPath + "\\logs\\testLogs.log");
+            var path = Path.Combine(application.Configuration.DirPath + "\\screenshots");
 
+            DirectoryInfo di = new DirectoryInfo(path);
 
-            //AllureLifecycle.Instance.AddAttachment(path);
+            foreach (FileInfo file in di.GetFiles())
+            {
+                file.Delete();
+            }
 
         }
     }
