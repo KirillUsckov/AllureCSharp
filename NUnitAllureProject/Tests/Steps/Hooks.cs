@@ -58,7 +58,7 @@ namespace NUnitAllureProject.Tests.Steps
             var path = Path.Combine(application.Configuration.DirPath + "\\logs\\testLogs.log");
 
 
-            AllureLifecycle.Instance.AddAttachment(path);
+            //AllureLifecycle.Instance.AddAttachment(path);
 
         }
     }

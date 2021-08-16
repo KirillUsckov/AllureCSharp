@@ -1,0 +1,16 @@
+ -------------- Info (2021-08-16 20:55:18.4073) --------------
+ 
+ Call Site: NUnitAllureProject.Tests.MainPageTests.CheckMainPageCanBeOpened
+ Exception Type: 
+ Exception Message: 
+ Stack Trace: 
+ Additional Info: Test CheckMainPageCanBeOpened
+
+ -------------- Info (2021-08-16 20:55:18.5142) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.AssertIsVisible
+ Exception Type: 
+ Exception Message: 
+ Stack Trace: 
+ Additional Info: Assert is visible
+
