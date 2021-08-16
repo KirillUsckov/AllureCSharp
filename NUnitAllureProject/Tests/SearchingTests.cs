@@ -50,6 +50,8 @@ namespace NUnitAllureProject.Tests
             mainPageSteps.PageWasOpened();
             searchingSteps.SearchItem(query);
             searchingResultsPageSteps.CheckResultPageWithInfotable(title);
+
+            MakeScreenshot();
         }
 
         [Test]
@@ -63,6 +65,7 @@ namespace NUnitAllureProject.Tests
             log.Info("Test case CheckSearchingPageWasOpened");
             mainPageSteps.PageWasOpened();
             searchingSteps.SearchItem("Google");
+            MakeScreenshot();
         }
     }
 }

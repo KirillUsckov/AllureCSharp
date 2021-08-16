@@ -47,17 +47,18 @@ namespace NUnitAllureProject.Tests.Steps
             navigation.ToBaseUrl();
         }
 
-        [TearDown, Order(1)]
+        [TearDown]
         public void TearDown()
         {
-            Screenshot ss = ((ITakesScreenshot)application.Driver).GetScreenshot();
+            /*Screenshot ss = ((ITakesScreenshot)application.Driver).GetScreenshot();
             var path = application.Configuration.DirPath + "\\screenshots\\" + DateTime.Now.Ticks + ".png";
             ss.SaveAsFile(path, ScreenshotImageFormat.Png);
-            AllureLifecycle.Instance.AddAttachment(path);
+            AllureLifecycle.Instance.AddAttachment(path);*/
             application.CloseDriver();
             Finally();
         }
 
+        [OneTimeTearDown]
         public void Finally()
         {
             var path = Path.Combine(application.Configuration.DirPath + "\\screenshots");
@@ -68,7 +69,15 @@ namespace NUnitAllureProject.Tests.Steps
             {
                 file.Delete();
             }
+            
+        }
 
+        public void MakeScreenshot()
+        {
+            Screenshot ss = ((ITakesScreenshot)application.Driver).GetScreenshot();
+            var path = application.Configuration.DirPath + "\\screenshots\\" + DateTime.Now.Ticks + ".png";
+            ss.SaveAsFile(path, ScreenshotImageFormat.Png);
+            AllureLifecycle.Instance.AddAttachment(path);
         }
     }
 }

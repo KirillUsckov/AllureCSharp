@@ -1,0 +1,62 @@
+ -------------- Info (2021-08-16 21:30:39.0367) --------------
+ 
+ Call Site: NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem
+ Additional Info: Test case CheckResultInfotableWasOpeneForSearchingItem
+
+ -------------- Info (2021-08-16 21:30:39.0367) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.AssertIsVisible
+ Additional Info: Assert is visible
+
+ -------------- Info (2021-08-16 21:30:39.0713) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.AssertIsVisible
+ Additional Info: Assert is visible
+
+ -------------- Info (2021-08-16 21:30:39.1580) --------------
+ 
+ Call Site: LittleFramework.Objects.Pages.SearchingPagePart.TypeTextInSearchingTextBox
+ Additional Info: Type text in searching textbox
+
+ -------------- Info (2021-08-16 21:30:39.3748) --------------
+ 
+ Call Site: LittleFramework.Objects.Pages.SearchingPagePart.ClickSearchButton
+ Additional Info: Click search button
+
+ -------------- Info (2021-08-16 21:30:39.3748) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.FindElement
+ Additional Info: Find element with locator: By.XPath: //*[contains(@class,'button') and contains(@class,'search') and @type='submit']
+
+ -------------- Info (2021-08-16 21:30:39.4829) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.AssertIsVisible
+ Additional Info: Assert is visible
+
+ -------------- Info (2021-08-16 21:30:40.1971) --------------
+ 
+ Call Site: LittleFramework.Objects.Pages.SearchingResultsPage.IsTableWithTitlePresent
+ Additional Info: Check is table with title 'Убер' exist
+
+ -------------- Info (2021-08-16 21:30:40.1971) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.FindElements
+ Additional Info: Find elements with locator: By.XPath: //div[contains(@class,'entity-search__header')]//div[contains(@class,'entity-search__header')]//div[contains(text(),'Убер')]
+
+ -------------- Error (2021-08-16 21:31:40.8722) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.FindElements
+ Additional Info: Error while elements searching:
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 60 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'entity-search__header')]//div[contains(@class,'entity-search__header')]//div[contains(text(),'Убер')]"}
+  (Session info: chrome=92.0.4515.131)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at LittleFramework.Objects.Base.BasePage.FindElements(By locator, TimeSpan timeout) in P:\VisualStudio\Work\jae\NUnitAllureProject\NUnitAllureProject\Objects\Base\BasePage.cs:line 68
+
