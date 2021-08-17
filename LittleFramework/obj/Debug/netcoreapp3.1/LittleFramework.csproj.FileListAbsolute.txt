@@ -1,0 +1,10 @@
+P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\bin\Debug\netcoreapp3.1\LittleFramework.deps.json
+P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\bin\Debug\netcoreapp3.1\LittleFramework.dll
+P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\bin\Debug\netcoreapp3.1\LittleFramework.pdb
+P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.csproj.AssemblyReference.cache
+P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.GeneratedMSBuildEditorConfig.editorconfig
+P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.AssemblyInfoInputs.cache
+P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.AssemblyInfo.cs
+P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.csproj.CoreCompileInputs.cache
+P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.dll
+P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.pdb
