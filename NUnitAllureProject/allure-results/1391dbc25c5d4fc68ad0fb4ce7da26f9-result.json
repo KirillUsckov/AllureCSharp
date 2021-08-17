@@ -1,0 +1,163 @@
+{
+  "uuid": "9cb2092a-6afe-4869-8f26-fb025f177aa6-tr-0-1004",
+  "historyId": "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+  "fullName": "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KAR-KARI4"
+    },
+    {
+      "name": "testClass",
+      "value": "NUnitAllureProject.Tests.SearchingTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckResultInfotableWasOpeneForSearchingItem"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAllureProject.Tests.SearchingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "feature",
+      "value": "Searching"
+    },
+    {
+      "name": "suite",
+      "value": "SearchingPage"
+    }
+  ],
+  "links": [
+    {
+      "name": "https://yandex.ru",
+      "url": "https://yandex.ru",
+      "type": "link"
+    }
+  ],
+  "name": "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Table with title 'Убер' should exist on the searching result page, but it doesn't.\r\n  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_o(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\Steps\\SearchingResultsPageSteps.cs:line 26\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_w_0(Object[] )\r\n   at Autotests.Steps.SearchingResultsPageSteps.CheckResultPageWithInfotable(String title)\r\n   at NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(String query, String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\SearchingTests.cs:line 56\r\n"
+  },
+  "stage": "finished",
+  "description": "Is Infotable displayed after searching item\n",
+  "steps": [
+    {
+      "name": "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Table with title 'Убер' should exist on the searching result page, but it doesn't.\r\n  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_o(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\Steps\\SearchingResultsPageSteps.cs:line 26\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_w_0(Object[] )\r\n   at Autotests.Steps.SearchingResultsPageSteps.CheckResultPageWithInfotable(String title)\r\n   at NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(String query, String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\SearchingTests.cs:line 56\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Go to base URL",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1629226746937,
+          "stop": 1629226748598
+        },
+        {
+          "name": "Check is main page opened",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1629226748599,
+          "stop": 1629226748633
+        },
+        {
+          "name": "Search item",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1629226748633,
+          "stop": 1629226749083
+        },
+        {
+          "name": "Check is infotable for current searching exist",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "  Table with title 'Убер' should exist on the searching result page, but it doesn't.\r\n  Expected: True\r\n  But was:  False\r\n",
+            "trace": "   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.IsTrue(Boolean condition, String message, Object[] args)\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_o(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\Steps\\SearchingResultsPageSteps.cs:line 26\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1629226749083,
+          "stop": 1629226810487
+        }
+      ],
+      "attachments": [
+        {
+          "name": "637648344108687993.png",
+          "source": "1e514c57f7da4537a638434755079d22-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "53621efa878043d799f2e02032bf3c2a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1629226745761,
+      "stop": 1629226812568
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Убер"
+    },
+    {
+      "name": "Param #1",
+      "value": "Убер"
+    }
+  ],
+  "start": 1629226745761,
+  "stop": 1629226812568
+}

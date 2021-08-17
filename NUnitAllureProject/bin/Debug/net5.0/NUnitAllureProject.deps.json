@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "NUnitAllureProject/1.0.0": {
         "dependencies": {
+          "Allure.Commons": "3.5.0.65",
           "LittleFramework": "1.0.0",
           "Microsoft.Build": "16.5.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
@@ -17,6 +18,8 @@
           "NUnit": "3.13.2",
           "NUnit.Allure": "1.0.14",
           "NUnit.Allure.Steps": "1.0.9",
+          "NUnit.ConsoleRunner": "3.12.0",
+          "NUnit.Runners": "3.12.0",
           "NUnit3TestAdapter": "3.13.0",
           "Newtonsoft.Json": "13.0.1",
           "Selenium.WebDriver": "3.141.0",
@@ -26,15 +29,15 @@
           "NUnitAllureProject.dll": {}
         }
       },
-      "Allure.Commons/3.5.0.4": {
+      "Allure.Commons/3.5.0.65": {
         "dependencies": {
           "MimeTypesMap": "1.0.8",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "lib/netstandard2.0/Allure.Commons.dll": {
-            "assemblyVersion": "3.5.0.4",
-            "fileVersion": "3.5.0.4"
+            "assemblyVersion": "3.5.0.65",
+            "fileVersion": "3.5.0.65"
           }
         }
       },
@@ -514,7 +517,7 @@
       },
       "NUnit.Allure/1.0.14": {
         "dependencies": {
-          "Allure.Commons": "3.5.0.4",
+          "Allure.Commons": "3.5.0.65",
           "NUnit": "3.13.2"
         },
         "runtime": {
@@ -534,6 +537,27 @@
             "assemblyVersion": "1.0.9.0",
             "fileVersion": "1.0.9.0"
           }
+        }
+      },
+      "NUnit.Console/3.12.0": {
+        "dependencies": {
+          "NUnit.ConsoleRunner": "3.12.0",
+          "NUnit.Extension.NUnitProjectLoader": "3.6.0",
+          "NUnit.Extension.NUnitV2Driver": "3.8.0",
+          "NUnit.Extension.NUnitV2ResultWriter": "3.6.0",
+          "NUnit.Extension.TeamCityEventListener": "1.0.7",
+          "NUnit.Extension.VSProjectLoader": "3.8.0"
+        }
+      },
+      "NUnit.ConsoleRunner/3.12.0": {},
+      "NUnit.Extension.NUnitProjectLoader/3.6.0": {},
+      "NUnit.Extension.NUnitV2Driver/3.8.0": {},
+      "NUnit.Extension.NUnitV2ResultWriter/3.6.0": {},
+      "NUnit.Extension.TeamCityEventListener/1.0.7": {},
+      "NUnit.Extension.VSProjectLoader/3.8.0": {},
+      "NUnit.Runners/3.12.0": {
+        "dependencies": {
+          "NUnit.Console": "3.12.0"
         }
       },
       "NUnit3TestAdapter/3.13.0": {
@@ -1033,12 +1057,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Allure.Commons/3.5.0.4": {
+    "Allure.Commons/3.5.0.65": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Z70v7jcxDypsHMnAvnbs1eTw0kdi4Uv6o0Z5gSGgqrH6ZZz6M/mB9IjQn6vE9B2ZWwT21mc38XtAdTl17faFNg==",
-      "path": "allure.commons/3.5.0.4",
-      "hashPath": "allure.commons.3.5.0.4.nupkg.sha512"
+      "sha512": "sha512-mqJH+32/vE4p9Q1VsSATJq71/sv5//8c9aH8A6rC8+vWyF4KlZpkr6BfK0hScDuNuZldO3nmyKgyUfCFGoWc+w==",
+      "path": "allure.commons/3.5.0.65",
+      "hashPath": "allure.commons.3.5.0.65.nupkg.sha512"
     },
     "AspectInjector/2.3.1": {
       "type": "package",
@@ -1242,6 +1266,62 @@
       "sha512": "sha512-suPMipzg/OzvdNJhGaCE8eGpWL3T3f1p5OctOt4SITOTYAEaaCgzuctUiW26O4C75IAHDsG5QUblTKMZIIqniA==",
       "path": "nunit.allure.steps/1.0.9",
       "hashPath": "nunit.allure.steps.1.0.9.nupkg.sha512"
+    },
+    "NUnit.Console/3.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9KXFnViEIKQjz4vqiYFpLV9sntfHxixQomLCJzDMXC6WDo9DP2GhDQiBND6we6MRStMSNzoAWgourbLKwo7utQ==",
+      "path": "nunit.console/3.12.0",
+      "hashPath": "nunit.console.3.12.0.nupkg.sha512"
+    },
+    "NUnit.ConsoleRunner/3.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZUtI8leU9ozCjLy4ZZ2X6ClU0hxfQtb95VOdmMA4SxIUvf62rIPxoHXS+jghvo5QxgRihGGcEp8xT3vCfgDdsA==",
+      "path": "nunit.consolerunner/3.12.0",
+      "hashPath": "nunit.consolerunner.3.12.0.nupkg.sha512"
+    },
+    "NUnit.Extension.NUnitProjectLoader/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ev2+dCJShMNIATkYNm/vHEuieBfbismr9DcUfBvafJZf5vNyugXPuMXO/MaOFcJaoW9j6/zjMmXKG7R5umWzXA==",
+      "path": "nunit.extension.nunitprojectloader/3.6.0",
+      "hashPath": "nunit.extension.nunitprojectloader.3.6.0.nupkg.sha512"
+    },
+    "NUnit.Extension.NUnitV2Driver/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l6MgFJPTnrlDaMXWfbUZ82h1uvtj0C1ExPpqm6HrYOBa5Z4MBwmFLqj85rnv9JMhu/Ju7jQB/FIaMbfoXInI2A==",
+      "path": "nunit.extension.nunitv2driver/3.8.0",
+      "hashPath": "nunit.extension.nunitv2driver.3.8.0.nupkg.sha512"
+    },
+    "NUnit.Extension.NUnitV2ResultWriter/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P/Nc+wgFRe3dT59/VjhiIT0SWfLMbb/Vc9AtBU3L71VOCs8zQnuNjCOEFLQL/Mq6XSaZeB2Sug9tUgTfCnQk9w==",
+      "path": "nunit.extension.nunitv2resultwriter/3.6.0",
+      "hashPath": "nunit.extension.nunitv2resultwriter.3.6.0.nupkg.sha512"
+    },
+    "NUnit.Extension.TeamCityEventListener/1.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bw+ZwHsUmxqb9leo91qLEF7ggtdpawY2V6wNqHI6+ATa2SHxHxoxiV5UV07ZWDRpf/qlQJELNlZu7wIB3+w2qQ==",
+      "path": "nunit.extension.teamcityeventlistener/1.0.7",
+      "hashPath": "nunit.extension.teamcityeventlistener.1.0.7.nupkg.sha512"
+    },
+    "NUnit.Extension.VSProjectLoader/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CIScV9a7+wUu6Ylb+WO0q/WGWQVoB05TUj3XZHa1CO+2BInDdfIVkqtlrSguhy6D/AGIMaLVrCZpQkQ2m0bbzQ==",
+      "path": "nunit.extension.vsprojectloader/3.8.0",
+      "hashPath": "nunit.extension.vsprojectloader.3.8.0.nupkg.sha512"
+    },
+    "NUnit.Runners/3.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KNpc03ZPF8wUWdPnLwNch1ycqsUNJgsheVlsUQcsHStuN5S7HMuNEGAavBNVwsHGq++GmtgG0N1MBVEgmxFtFg==",
+      "path": "nunit.runners/3.12.0",
+      "hashPath": "nunit.runners.3.12.0.nupkg.sha512"
     },
     "NUnit3TestAdapter/3.13.0": {
       "type": "package",

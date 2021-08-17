@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "51FPCZMgpICBGX+K42J9KUO27TiV69sK3wrjdqCHtbmiOC8siz8YT6nMcn6SIFcSoVudJe2wFr1RyX3vhNy3vw==",
+  "dgSpecHash": "+kxgBTSK4mhLSVmfqpqQbuptcFXc9IAdX3egYtx7Qfx2jOW577so0qdbKUqSeSm7lm1iGuXp+wji84+h9Y2M0Q==",
   "success": true,
   "projectFilePath": "P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\NUnitAllureProject.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,14 @@
     "C:\\Users\\Kirill\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
     "C:\\Users\\Kirill\\.nuget\\packages\\nunit.allure\\1.0.14\\nunit.allure.1.0.14.nupkg.sha512",
     "C:\\Users\\Kirill\\.nuget\\packages\\nunit.allure.steps\\1.0.9\\nunit.allure.steps.1.0.9.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\nunit.console\\3.12.0\\nunit.console.3.12.0.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\nunit.consolerunner\\3.12.0\\nunit.consolerunner.3.12.0.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\nunit.extension.nunitprojectloader\\3.6.0\\nunit.extension.nunitprojectloader.3.6.0.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\nunit.extension.nunitv2driver\\3.8.0\\nunit.extension.nunitv2driver.3.8.0.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\nunit.extension.nunitv2resultwriter\\3.6.0\\nunit.extension.nunitv2resultwriter.3.6.0.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\nunit.extension.teamcityeventlistener\\1.0.7\\nunit.extension.teamcityeventlistener.1.0.7.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\nunit.extension.vsprojectloader\\3.8.0\\nunit.extension.vsprojectloader.3.8.0.nupkg.sha512",
+    "C:\\Users\\Kirill\\.nuget\\packages\\nunit.runners\\3.12.0\\nunit.runners.3.12.0.nupkg.sha512",
     "C:\\Users\\Kirill\\.nuget\\packages\\nunit3testadapter\\3.13.0\\nunit3testadapter.3.13.0.nupkg.sha512",
     "C:\\Users\\Kirill\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\Kirill\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
