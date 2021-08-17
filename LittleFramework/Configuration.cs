@@ -16,7 +16,9 @@ namespace LittleFramework.Objects
 
         public Configuration()
         {
-            var baseDir = AppDomain.CurrentDomain.BaseDirectory;
+            //var baseDir = AppDomain.CurrentDomain.BaseDirectory;
+            
+            var baseDir = Directory.GetCurrentDirectory();
             var id = baseDir.IndexOf("\\bin\\Debug");
             DirPath = baseDir.Contains("\\bin\\Debug") ? baseDir.Substring(0, id) : baseDir;
             var fullPath = DirPath + confUrl;
