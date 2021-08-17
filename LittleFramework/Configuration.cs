@@ -18,7 +18,7 @@ namespace LittleFramework.Objects
         {
             var baseDir = AppDomain.CurrentDomain.BaseDirectory;
             var id = baseDir.IndexOf("\\bin\\Debug");
-            DirPath = baseDir.Substring(0, id);
+            DirPath = baseDir.Contains("\\bin\\Debug") ? baseDir.Substring(0, id) : baseDir;
             var fullPath = DirPath + confUrl;
             configuration = JsonConvert.DeserializeObject<ConfModel>(File.ReadAllText(fullPath));
         }        
