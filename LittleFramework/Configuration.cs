@@ -19,6 +19,7 @@ namespace LittleFramework.Objects
             //var baseDir = AppDomain.CurrentDomain.BaseDirectory;
             
             var baseDir = Directory.GetCurrentDirectory();
+            baseDir = baseDir.Contains("NUnitAllureProject") ? baseDir : baseDir + "\\NUnitAllureProject";
             var id = baseDir.IndexOf("\\bin\\Debug");
             DirPath = baseDir.Contains("\\bin\\Debug") ? baseDir.Substring(0, id) : baseDir;
             var fullPath = DirPath + confUrl;
