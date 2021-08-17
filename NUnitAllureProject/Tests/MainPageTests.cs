@@ -1,6 +1,5 @@
 ﻿using AllureTask.Steps;
 using NLog;
-using NLog.Fluent;
 using NUnit.Allure.Attributes;
 using NUnit.Allure.Core;
 using NUnit.Framework;
