@@ -44,6 +44,7 @@
 
   <ItemGroup>
     <Folder Include="screenshots\" />
+    <Folder Include="TestResults\" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties allureconfig_1json__JsonSchema="https://github.com/go-vela/types/releases/latest/download/schema.json" /></VisualStudio></ProjectExtensions>
