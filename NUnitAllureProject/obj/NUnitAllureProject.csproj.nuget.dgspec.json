@@ -67,6 +67,10 @@
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
               "version": "[91.0.4472.10100, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
@@ -187,6 +191,10 @@
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
               "version": "[91.0.4472.10100, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
