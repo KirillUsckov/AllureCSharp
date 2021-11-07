@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\LittleFramework\\LittleFramework.csproj": {}
+    "P:\\VisualStudio\\CSharpAllureNunit\\LittleFramework\\LittleFramework.csproj": {}
   },
   "projects": {
-    "P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\LittleFramework\\LittleFramework.csproj": {
+    "P:\\VisualStudio\\CSharpAllureNunit\\LittleFramework\\LittleFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\LittleFramework\\LittleFramework.csproj",
+        "projectUniqueName": "P:\\VisualStudio\\CSharpAllureNunit\\LittleFramework\\LittleFramework.csproj",
         "projectName": "LittleFramework",
-        "projectPath": "P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\LittleFramework\\LittleFramework.csproj",
+        "projectPath": "P:\\VisualStudio\\CSharpAllureNunit\\LittleFramework\\LittleFramework.csproj",
         "packagesPath": "C:\\Users\\Kirill\\.nuget\\packages\\",
-        "outputPath": "P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\LittleFramework\\obj\\",
+        "outputPath": "P:\\VisualStudio\\CSharpAllureNunit\\LittleFramework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kirill\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -66,7 +66,7 @@
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[91.0.4472.10100, )"
+              "version": "[95.0.4638.5401, )"
             },
             "System.Runtime": {
               "target": "Package",

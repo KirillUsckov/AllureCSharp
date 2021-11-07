@@ -134,7 +134,7 @@
           "dependencies": {
             "Allure.Commons": {
               "target": "Package",
-              "version": "[3.5.0.65, )"
+              "version": "[3.5.0.73, )"
             },
             "Microsoft.Build": {
               "target": "Package",

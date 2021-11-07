@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Allure.Commons/3.5.0.65": {
+      "Allure.Commons/3.5.0.73": {
         "type": "package",
         "dependencies": {
           "MimeTypesMap": "1.0.8",
@@ -1520,15 +1520,15 @@
     }
   },
   "libraries": {
-    "Allure.Commons/3.5.0.65": {
-      "sha512": "mqJH+32/vE4p9Q1VsSATJq71/sv5//8c9aH8A6rC8+vWyF4KlZpkr6BfK0hScDuNuZldO3nmyKgyUfCFGoWc+w==",
+    "Allure.Commons/3.5.0.73": {
+      "sha512": "cqMlst9Za1TfOsgN2fWzMkdUeOTy07AZHaudOuRVAjTyBmUxDKOKxCwlkxO1Xw91ogsPCdXIJdduUtFFGw+Thw==",
       "type": "package",
-      "path": "allure.commons/3.5.0.65",
+      "path": "allure.commons/3.5.0.73",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "allure-net.png",
-        "allure.commons.3.5.0.65.nupkg.sha512",
+        "allure.commons.3.5.0.73.nupkg.sha512",
         "allure.commons.nuspec",
         "content/allureConfig.Template.json",
         "contentFiles/any/net45/allureConfig.Template.json",
@@ -5256,7 +5256,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Allure.Commons >= 3.5.0.65",
+      "Allure.Commons >= 3.5.0.73",
       "LittleFramework >= 1.0.0",
       "Microsoft.Build >= 16.5.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
@@ -5320,7 +5320,7 @@
         "dependencies": {
           "Allure.Commons": {
             "target": "Package",
-            "version": "[3.5.0.65, )"
+            "version": "[3.5.0.73, )"
           },
           "Microsoft.Build": {
             "target": "Package",

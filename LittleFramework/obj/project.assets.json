@@ -235,7 +235,7 @@
           "lib/netstandard2.0/WebDriver.dll": {}
         }
       },
-      "Selenium.WebDriver.ChromeDriver/91.0.4472.10100": {
+      "Selenium.WebDriver.ChromeDriver/95.0.4638.5401": {
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
@@ -1077,10 +1077,10 @@
         "selenium.webdriver.nuspec"
       ]
     },
-    "Selenium.WebDriver.ChromeDriver/91.0.4472.10100": {
-      "sha512": "RalhItuJ6BZdD9HHVUHdpgDP/NQAUrr1yEAHWet+Ww33wbcuei0A2sF4+9duKaLQuZO3lcid7pKe2+km3sOGBQ==",
+    "Selenium.WebDriver.ChromeDriver/95.0.4638.5401": {
+      "sha512": "1FLw6kawHUufyJhzMdaqZGylYlg/xE/oji94aOkfhSV1yDHvd97mecqBm6SbWMnapxSBkVrWY6lFf1esw6yOPg==",
       "type": "package",
-      "path": "selenium.webdriver.chromedriver/91.0.4472.10100",
+      "path": "selenium.webdriver.chromedriver/95.0.4638.5401",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1091,7 +1091,7 @@
         "driver/mac64/chromedriver",
         "driver/win32/chromedriver.exe",
         "nupkg-icon.png",
-        "selenium.webdriver.chromedriver.91.0.4472.10100.nupkg.sha512",
+        "selenium.webdriver.chromedriver.95.0.4638.5401.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
       ]
     },
@@ -2583,7 +2583,7 @@
       "Newtonsoft.Json >= 13.0.1",
       "Selenium.Support >= 3.141.0",
       "Selenium.WebDriver >= 3.141.0",
-      "Selenium.WebDriver.ChromeDriver >= 91.0.4472.10100",
+      "Selenium.WebDriver.ChromeDriver >= 95.0.4638.5401",
       "System.Runtime >= 4.3.1"
     ]
   },
@@ -2593,11 +2593,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\LittleFramework\\LittleFramework.csproj",
+      "projectUniqueName": "P:\\VisualStudio\\CSharpAllureNunit\\LittleFramework\\LittleFramework.csproj",
       "projectName": "LittleFramework",
-      "projectPath": "P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\LittleFramework\\LittleFramework.csproj",
+      "projectPath": "P:\\VisualStudio\\CSharpAllureNunit\\LittleFramework\\LittleFramework.csproj",
       "packagesPath": "C:\\Users\\Kirill\\.nuget\\packages\\",
-      "outputPath": "P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\LittleFramework\\obj\\",
+      "outputPath": "P:\\VisualStudio\\CSharpAllureNunit\\LittleFramework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kirill\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2652,7 +2652,7 @@
           },
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
-            "version": "[91.0.4472.10100, )"
+            "version": "[95.0.4638.5401, )"
           },
           "System.Runtime": {
             "target": "Package",

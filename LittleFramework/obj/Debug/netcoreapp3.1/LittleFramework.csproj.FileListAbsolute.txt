@@ -7,3 +7,13 @@ P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\obj\Debug\netcoreapp
 P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.csproj.CoreCompileInputs.cache
 P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.dll
 P:\VisualStudio\Work\jae\NUnitAllureProject\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.pdb
+P:\VisualStudio\CSharpAllureNunit\LittleFramework\bin\Debug\netcoreapp3.1\LittleFramework.deps.json
+P:\VisualStudio\CSharpAllureNunit\LittleFramework\bin\Debug\netcoreapp3.1\LittleFramework.dll
+P:\VisualStudio\CSharpAllureNunit\LittleFramework\bin\Debug\netcoreapp3.1\LittleFramework.pdb
+P:\VisualStudio\CSharpAllureNunit\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.csproj.AssemblyReference.cache
+P:\VisualStudio\CSharpAllureNunit\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.GeneratedMSBuildEditorConfig.editorconfig
+P:\VisualStudio\CSharpAllureNunit\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.AssemblyInfoInputs.cache
+P:\VisualStudio\CSharpAllureNunit\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.AssemblyInfo.cs
+P:\VisualStudio\CSharpAllureNunit\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.csproj.CoreCompileInputs.cache
+P:\VisualStudio\CSharpAllureNunit\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.dll
+P:\VisualStudio\CSharpAllureNunit\LittleFramework\obj\Debug\netcoreapp3.1\LittleFramework.pdb
