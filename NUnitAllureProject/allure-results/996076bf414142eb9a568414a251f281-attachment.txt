@@ -1,0 +1,35 @@
+ -------------- Info (2021-11-07 15:55:11.3064) --------------
+ 
+ Call Site: NUnitAllureProject.Tests.SearchingTests.CheckSearchingPageWasOpened
+ Additional Info: Test case CheckSearchingPageWasOpened
+
+ -------------- Info (2021-11-07 15:55:11.3064) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.AssertIsVisible
+ Additional Info: Assert is visible
+
+ -------------- Info (2021-11-07 15:55:11.3508) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.AssertIsVisible
+ Additional Info: Assert is visible
+
+ -------------- Info (2021-11-07 15:55:11.4892) --------------
+ 
+ Call Site: LittleFramework.Objects.Pages.SearchingPagePart.TypeTextInSearchingTextBox
+ Additional Info: Type text in searching textbox
+
+ -------------- Info (2021-11-07 15:55:11.7534) --------------
+ 
+ Call Site: LittleFramework.Objects.Pages.SearchingPagePart.ClickSearchButton
+ Additional Info: Click search button
+
+ -------------- Info (2021-11-07 15:55:11.7534) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.FindElement
+ Additional Info: Find element with locator: By.XPath: //*[contains(@class,'button') and contains(@class,'search') and @type='submit']
+
+ -------------- Info (2021-11-07 15:55:11.8689) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.AssertIsVisible
+ Additional Info: Assert is visible
+

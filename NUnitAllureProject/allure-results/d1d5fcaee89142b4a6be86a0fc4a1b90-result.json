@@ -1,0 +1,158 @@
+{
+  "uuid": "b4529a3d-69fc-4119-af0c-359e592a8de2-tr-0-1005",
+  "historyId": "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+  "fullName": "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KAR-KARI4"
+    },
+    {
+      "name": "testClass",
+      "value": "NUnitAllureProject.Tests.SearchingTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckResultInfotableWasOpeneForSearchingItem"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAllureProject.Tests.SearchingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "feature",
+      "value": "Searching"
+    },
+    {
+      "name": "suite",
+      "value": "SearchingPage"
+    }
+  ],
+  "links": [
+    {
+      "name": "https://yandex.ru",
+      "url": "https://yandex.ru",
+      "type": "link"
+    }
+  ],
+  "name": "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")"
+  },
+  "stage": "finished",
+  "description": "Is Infotable displayed after searching item\n",
+  "steps": [
+    {
+      "name": "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Go to base URL",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1636289704884,
+          "stop": 1636289706242
+        },
+        {
+          "name": "Check is main page opened",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1636289706243,
+          "stop": 1636289706273
+        },
+        {
+          "name": "Search item",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1636289706273,
+          "stop": 1636289706743
+        },
+        {
+          "name": "Check is infotable for current searching exist",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1636289706743,
+          "stop": 1636289707716
+        }
+      ],
+      "attachments": [
+        {
+          "name": "637718973079380865.png",
+          "source": "49abe836d97e4757b941c370ae9bc2f8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "64571d03d90d4e6fa53f351f1d4ef5bc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1636289703410,
+      "stop": 1636289708036
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Яндекс"
+    },
+    {
+      "name": "Param #1",
+      "value": "Яндекс"
+    }
+  ],
+  "start": 1636289703410,
+  "stop": 1636289708036
+}
