@@ -1,0 +1,241 @@
+{
+  "uid" : "7660efdac32d3afd",
+  "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+  "fullName" : "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+  "historyId" : "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+  "time" : {
+    "start" : 1629039283001,
+    "stop" : 1629039330398,
+    "duration" : 47397
+  },
+  "description" : "Is Infotable displayed after searching item\n",
+  "descriptionHtml" : "<p>Is Infotable displayed after searching item</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.WebDriverException : chrome not reachable\n  (Session info: chrome=92.0.4515.131)",
+  "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at LittleFramework.Objects.Base.BasePage.FindElements(By locator, TimeSpan timeout) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Base\\BasePage.cs:line 60\r\n   at LittleFramework.Objects.Base.BasePage.FindElements(By locator) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Base\\BasePage.cs:line 71\r\n   at LittleFramework.Objects.Pages.SearchingResultsPage.IsTableWithTitlePresent(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Pages\\SearchingResultsPage.cs:line 25\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_o(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\Steps\\SearchingResultsPageSteps.cs:line 25\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_w_0(Object[] )\r\n   at Autotests.Steps.SearchingResultsPageSteps.CheckResultPageWithInfotable(String title)\r\n   at NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(String query, String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\SearchingTests.cs:line 47",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "AllureSetUp",
+    "time" : {
+      "start" : 1629039330397,
+      "stop" : 1629039330397,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629039330397,
+      "stop" : 1629039330397,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "GoToBaseUrl",
+    "time" : {
+      "start" : 1629039330397,
+      "stop" : 1629039330397,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "InitPages",
+    "time" : {
+      "start" : 1629039330397,
+      "stop" : 1629039330397,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Is Infotable displayed after searching item\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.WebDriverException : chrome not reachable\n  (Session info: chrome=92.0.4515.131)",
+    "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at LittleFramework.Objects.Base.BasePage.FindElements(By locator, TimeSpan timeout) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Base\\BasePage.cs:line 60\r\n   at LittleFramework.Objects.Base.BasePage.FindElements(By locator) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Base\\BasePage.cs:line 71\r\n   at LittleFramework.Objects.Pages.SearchingResultsPage.IsTableWithTitlePresent(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Pages\\SearchingResultsPage.cs:line 25\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_o(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\Steps\\SearchingResultsPageSteps.cs:line 25\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_w_0(Object[] )\r\n   at Autotests.Steps.SearchingResultsPageSteps.CheckResultPageWithInfotable(String title)\r\n   at NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(String query, String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\SearchingTests.cs:line 47",
+    "steps" : [ {
+      "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+      "time" : {
+        "start" : 1629039283001,
+        "stop" : 1629039330398,
+        "duration" : 47397
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.WebDriverException : chrome not reachable\n  (Session info: chrome=92.0.4515.131)",
+      "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at LittleFramework.Objects.Base.BasePage.FindElements(By locator, TimeSpan timeout) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Base\\BasePage.cs:line 60\r\n   at LittleFramework.Objects.Base.BasePage.FindElements(By locator) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Base\\BasePage.cs:line 71\r\n   at LittleFramework.Objects.Pages.SearchingResultsPage.IsTableWithTitlePresent(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Pages\\SearchingResultsPage.cs:line 25\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_o(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\Steps\\SearchingResultsPageSteps.cs:line 25\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_w_0(Object[] )\r\n   at Autotests.Steps.SearchingResultsPageSteps.CheckResultPageWithInfotable(String title)\r\n   at NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(String query, String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\SearchingTests.cs:line 47",
+      "steps" : [ {
+        "name" : "Go to base URL",
+        "time" : {
+          "start" : 1629039284082,
+          "stop" : 1629039285199,
+          "duration" : 1117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check is main page opened",
+        "time" : {
+          "start" : 1629039285199,
+          "stop" : 1629039285233,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Search item",
+        "time" : {
+          "start" : 1629039285233,
+          "stop" : 1629039285520,
+          "duration" : 287
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check is infotable for current searching exist",
+        "time" : {
+          "start" : 1629039285520,
+          "stop" : 1629039330359,
+          "duration" : 44839
+        },
+        "status" : "failed",
+        "statusMessage" : "chrome not reachable\n  (Session info: chrome=92.0.4515.131)",
+        "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at LittleFramework.Objects.Base.BasePage.FindElements(By locator, TimeSpan timeout) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Base\\BasePage.cs:line 60\r\n   at LittleFramework.Objects.Base.BasePage.FindElements(By locator) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Base\\BasePage.cs:line 71\r\n   at LittleFramework.Objects.Pages.SearchingResultsPage.IsTableWithTitlePresent(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Objects\\Pages\\SearchingResultsPage.cs:line 25\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_o(String title) in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\Steps\\SearchingResultsPageSteps.cs:line 25\r\n   at Autotests.Steps.SearchingResultsPageSteps.__a$_around_CheckResultPageWithInfotable_100663300_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "fee6165e43f1a807",
+        "name" : "Console Output",
+        "source" : "fee6165e43f1a807.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1629039330397,
+      "stop" : 1629039330397,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "KAR-KARI4"
+  }, {
+    "name" : "testClass",
+    "value" : "NUnitAllureProject.Tests.SearchingTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckResultInfotableWasOpeneForSearchingItem"
+  }, {
+    "name" : "package",
+    "value" : "NUnitAllureProject.Tests.SearchingTests"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "feature",
+    "value" : "Searching"
+  }, {
+    "name" : "suite",
+    "value" : "SearchingPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Param #0",
+    "value" : "Убер"
+  }, {
+    "name" : "Param #1",
+    "value" : "Убер"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Regression" ]
+  },
+  "source" : "7660efdac32d3afd.json",
+  "parameterValues" : [ "Убер", "Убер" ]
+}

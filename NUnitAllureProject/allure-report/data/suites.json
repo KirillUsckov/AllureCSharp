@@ -1,0 +1,98 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "MainPage",
+    "children" : [ {
+      "name" : "CheckMainPageCanBeOpened",
+      "uid" : "af2dcdfddc11f07f",
+      "parentUid" : "88c6c7107d1a24bef252762777c8a73d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636295156455,
+        "stop" : 1636295158642,
+        "duration" : 2187
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 23,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "88c6c7107d1a24bef252762777c8a73d"
+  }, {
+    "name" : "SearchingPage",
+    "children" : [ {
+      "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+      "uid" : "801becd799d08ad9",
+      "parentUid" : "4a9caf41d4c3aee33c2cfc8343cd6cd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636295160136,
+        "stop" : 1636295163417,
+        "duration" : 3281
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Google", "Google" ]
+    }, {
+      "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+      "uid" : "f122028e105dba0a",
+      "parentUid" : "4a9caf41d4c3aee33c2cfc8343cd6cd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636295163420,
+        "stop" : 1636295167940,
+        "duration" : 4520
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Яндекс", "Яндекс" ]
+    }, {
+      "name" : "CheckSearchingPageWasOpened",
+      "uid" : "2f3817098ca22289",
+      "parentUid" : "4a9caf41d4c3aee33c2cfc8343cd6cd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636295167943,
+        "stop" : 1636295172517,
+        "duration" : 4574
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+      "uid" : "a1a45ee4eacb291a",
+      "parentUid" : "4a9caf41d4c3aee33c2cfc8343cd6cd1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636295609661,
+        "stop" : 1636295673043,
+        "duration" : 63382
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Убер", "Убер" ]
+    } ],
+    "uid" : "4a9caf41d4c3aee33c2cfc8343cd6cd1"
+  } ]
+}

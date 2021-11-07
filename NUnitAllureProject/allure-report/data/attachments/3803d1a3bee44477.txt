@@ -1,0 +1,10 @@
+ -------------- Info (2021-08-16 21:49:55.9440) --------------
+ 
+ Call Site: NUnitAllureProject.Tests.MainPageTests.CheckMainPageCanBeOpened
+ Additional Info: Test CheckMainPageCanBeOpened
+
+ -------------- Info (2021-08-16 21:49:55.9592) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.AssertIsVisible
+ Additional Info: Assert is visible
+

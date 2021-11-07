@@ -1,0 +1,102 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "NUnitAllureProject.Tests",
+    "children" : [ {
+      "name" : "MainPageTests",
+      "children" : [ {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "af2dcdfddc11f07f",
+        "parentUid" : "e57a8ef902a978d956b60175baaff2a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636295156455,
+          "stop" : 1636295158642,
+          "duration" : 2187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 23,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e57a8ef902a978d956b60175baaff2a5"
+    }, {
+      "name" : "SearchingTests",
+      "children" : [ {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem",
+        "uid" : "801becd799d08ad9",
+        "parentUid" : "195d61b19f75c2b2cf3e5dbee2348e08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636295160136,
+          "stop" : 1636295163417,
+          "duration" : 3281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Google", "Google" ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem",
+        "uid" : "f122028e105dba0a",
+        "parentUid" : "195d61b19f75c2b2cf3e5dbee2348e08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636295163420,
+          "stop" : 1636295167940,
+          "duration" : 4520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Яндекс", "Яндекс" ]
+      }, {
+        "name" : "CheckSearchingPageWasOpened",
+        "uid" : "2f3817098ca22289",
+        "parentUid" : "195d61b19f75c2b2cf3e5dbee2348e08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636295167943,
+          "stop" : 1636295172517,
+          "duration" : 4574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 11,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem",
+        "uid" : "a1a45ee4eacb291a",
+        "parentUid" : "195d61b19f75c2b2cf3e5dbee2348e08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1636295609661,
+          "stop" : 1636295673043,
+          "duration" : 63382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Убер", "Убер" ]
+      } ],
+      "uid" : "195d61b19f75c2b2cf3e5dbee2348e08"
+    } ],
+    "uid" : "NUnitAllureProject.Tests"
+  } ]
+}

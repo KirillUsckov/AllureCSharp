@@ -1,0 +1,11 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Nov 07 17:25:56 MSK 2021","Sun Nov 07 17:25:58 MSK 2021","2187","","MainPage","","NUnitAllureProject.Tests.MainPageTests","CheckMainPageCanBeOpened","CheckMainPageCanBeOpened","Check can the main page be opened
+"
+"passed","Sun Nov 07 17:26:00 MSK 2021","Sun Nov 07 17:26:03 MSK 2021","3281","","SearchingPage","","NUnitAllureProject.Tests.SearchingTests","CheckResultInfotableWasOpeneForSearchingItem","CheckResultInfotableWasOpeneForSearchingItem(""Google"",""Google"")","Is Infotable displayed after searching item
+"
+"passed","Sun Nov 07 17:26:07 MSK 2021","Sun Nov 07 17:26:12 MSK 2021","4574","","SearchingPage","","NUnitAllureProject.Tests.SearchingTests","CheckSearchingPageWasOpened","CheckSearchingPageWasOpened","Is Searching result page displayed after searching item
+"
+"passed","Sun Nov 07 17:26:03 MSK 2021","Sun Nov 07 17:26:07 MSK 2021","4520","","SearchingPage","","NUnitAllureProject.Tests.SearchingTests","CheckResultInfotableWasOpeneForSearchingItem","CheckResultInfotableWasOpeneForSearchingItem(""Яндекс"",""Яндекс"")","Is Infotable displayed after searching item
+"
+"failed","Sun Nov 07 17:33:29 MSK 2021","Sun Nov 07 17:34:33 MSK 2021","63382","","SearchingPage","","NUnitAllureProject.Tests.SearchingTests","CheckResultInfotableWasOpeneForSearchingItem","CheckResultInfotableWasOpeneForSearchingItem(""Убер"",""Убер"")","Is Infotable displayed after searching item
+"

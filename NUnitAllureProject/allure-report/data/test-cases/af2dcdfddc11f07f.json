@@ -1,0 +1,435 @@
+{
+  "uid" : "af2dcdfddc11f07f",
+  "name" : "CheckMainPageCanBeOpened",
+  "fullName" : "NUnitAllureProject.Tests.MainPageTests.CheckMainPageCanBeOpened",
+  "historyId" : "NUnitAllureProject.Tests.MainPageTests.CheckMainPageCanBeOpened",
+  "time" : {
+    "start" : 1636295156455,
+    "stop" : 1636295158642,
+    "duration" : 2187
+  },
+  "description" : "Check can the main page be opened\n",
+  "descriptionHtml" : "<p>Check can the main page be opened</p>\n",
+  "status" : "passed",
+  "statusMessage" : "CheckMainPageCanBeOpened",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 23,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "AllureSetUp",
+    "time" : {
+      "start" : 1636295158631,
+      "stop" : 1636295158631,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "Init",
+    "time" : {
+      "start" : 1636295158632,
+      "stop" : 1636295158632,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "GoToBaseUrl",
+    "time" : {
+      "start" : 1636295158632,
+      "stop" : 1636295158632,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "InitPages",
+    "time" : {
+      "start" : 1636295158632,
+      "stop" : 1636295158632,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Check can the main page be opened\n",
+    "status" : "passed",
+    "statusMessage" : "CheckMainPageCanBeOpened",
+    "steps" : [ {
+      "name" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1636295156455,
+        "stop" : 1636295158637,
+        "duration" : 2182
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Go to base URL",
+        "time" : {
+          "start" : 1636295156457,
+          "stop" : 1636295158075,
+          "duration" : 1618
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check is main page opened",
+        "time" : {
+          "start" : 1636295158084,
+          "stop" : 1636295158147,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "cb0dc83de192fbfd",
+        "name" : "637719027584006028.png",
+        "source" : "cb0dc83de192fbfd.png",
+        "type" : "image/png",
+        "size" : 458531
+      }, {
+        "uid" : "c679630c77742179",
+        "name" : "Console Output",
+        "source" : "c679630c77742179.txt",
+        "type" : "text/plain",
+        "size" : 368
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1636295158632,
+      "stop" : 1636295158632,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "Finally",
+    "time" : {
+      "start" : 1636295158632,
+      "stop" : 1636295158632,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "KAR-KARI4"
+  }, {
+    "name" : "testClass",
+    "value" : "NUnitAllureProject.Tests.MainPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckMainPageCanBeOpened"
+  }, {
+    "name" : "package",
+    "value" : "NUnitAllureProject.Tests.MainPageTests"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "MainPage"
+  }, {
+    "name" : "feature",
+    "value" : "MainPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://yandex.ru",
+    "url" : "https://yandex.ru",
+    "type" : "link"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e536cc63d36b303e",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1636289631378,
+        "stop" : 1636289633657,
+        "duration" : 2279
+      }
+    }, {
+      "uid" : "c6c205e07ae93e80",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629233226555,
+        "stop" : 1629233228432,
+        "duration" : 1877
+      }
+    }, {
+      "uid" : "c550a5e681f07354",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629233062994,
+        "stop" : 1629233064822,
+        "duration" : 1828
+      }
+    }, {
+      "uid" : "d540019edc380b19",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629227011012,
+        "stop" : 1629227013927,
+        "duration" : 2915
+      }
+    }, {
+      "uid" : "9325c2415736d5a3",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629226738524,
+        "stop" : 1629226740913,
+        "duration" : 2389
+      }
+    }, {
+      "uid" : "8e79d354764d15f5",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629139812535,
+        "stop" : 1629139815987,
+        "duration" : 3452
+      }
+    }, {
+      "uid" : "5bb68a9e334633a2",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629139794702,
+        "stop" : 1629139798416,
+        "duration" : 3714
+      }
+    }, {
+      "uid" : "ae6584a78bf796b7",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629139572555,
+        "stop" : 1629139574368,
+        "duration" : 1813
+      }
+    }, {
+      "uid" : "eef60d7de4ea2f53",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629138920678,
+        "stop" : 1629138923154,
+        "duration" : 2476
+      }
+    }, {
+      "uid" : "ad31c12a104ac88c",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629138629089,
+        "stop" : 1629138631471,
+        "duration" : 2382
+      }
+    }, {
+      "uid" : "96335d9c6667308d",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629138429085,
+        "stop" : 1629138437958,
+        "duration" : 8873
+      }
+    }, {
+      "uid" : "24b120b3450a1e4a",
+      "status" : "failed",
+      "statusDetails" : "TearDown : System.IO.IOException : Синтаксическая ошибка в имени файла, имени папки или метке тома. : 'P:\\screenshots\\16.08.2021 21:22:14.png'",
+      "time" : {
+        "start" : 1629138133014,
+        "stop" : 1629138135012,
+        "duration" : 1998
+      }
+    }, {
+      "uid" : "1f3e7b52cef6e768",
+      "status" : "failed",
+      "statusDetails" : "TearDown : System.IO.IOException : Синтаксическая ошибка в имени файла, имени папки или метке тома. : 'P:\\screenshots\\16.08.2021 21:20:21.png'",
+      "time" : {
+        "start" : 1629138019701,
+        "stop" : 1629138021695,
+        "duration" : 1994
+      }
+    }, {
+      "uid" : "fb43dbcabadc8d63",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629137044302,
+        "stop" : 1629137046411,
+        "duration" : 2109
+      }
+    }, {
+      "uid" : "6fc1e1276b189fc",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629136502864,
+        "stop" : 1629136547798,
+        "duration" : 44934
+      }
+    }, {
+      "uid" : "1aaa5aeef08aa013",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629136152429,
+        "stop" : 1629136155866,
+        "duration" : 3437
+      }
+    }, {
+      "uid" : "816f7b46b0e11ec8",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629136048911,
+        "stop" : 1629136050761,
+        "duration" : 1850
+      }
+    }, {
+      "uid" : "5f040dcd9adf4e72",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629135967719,
+        "stop" : 1629135971055,
+        "duration" : 3336
+      }
+    }, {
+      "uid" : "5cdb25be593f97da",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629135882999,
+        "stop" : 1629135886330,
+        "duration" : 3331
+      }
+    }, {
+      "uid" : "6ac102b59408ad8a",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629135719050,
+        "stop" : 1629135721238,
+        "duration" : 2188
+      }
+    }, {
+      "uid" : "806bc1759897612e",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629135708760,
+        "stop" : 1629135710911,
+        "duration" : 2151
+      }
+    }, {
+      "uid" : "44d3ba4b0b8dd421",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629135419145,
+        "stop" : 1629135421669,
+        "duration" : 2524
+      }
+    }, {
+      "uid" : "b4760d75664a6252",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629039278195,
+        "stop" : 1629039279693,
+        "duration" : 1498
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Regression" ]
+  },
+  "source" : "af2dcdfddc11f07f.json",
+  "parameterValues" : [ ]
+}

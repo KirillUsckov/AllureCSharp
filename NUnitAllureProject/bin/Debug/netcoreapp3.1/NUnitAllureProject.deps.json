@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "NUnitAllureProject/1.0.0": {
         "dependencies": {
-          "Allure.Commons": "3.5.0.65",
+          "Allure.Commons": "3.5.0.73",
           "LittleFramework": "1.0.0",
           "Microsoft.Build": "16.5.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
@@ -30,15 +30,15 @@
           "NUnitAllureProject.dll": {}
         }
       },
-      "Allure.Commons/3.5.0.65": {
+      "Allure.Commons/3.5.0.73": {
         "dependencies": {
           "MimeTypesMap": "1.0.8",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "lib/netstandard2.0/Allure.Commons.dll": {
-            "assemblyVersion": "3.5.0.65",
-            "fileVersion": "3.5.0.65"
+            "assemblyVersion": "3.5.0.73",
+            "fileVersion": "3.5.0.73"
           }
         }
       },
@@ -539,7 +539,7 @@
       },
       "NUnit.Allure/1.0.14": {
         "dependencies": {
-          "Allure.Commons": "3.5.0.65",
+          "Allure.Commons": "3.5.0.73",
           "NUnit": "3.13.2"
         },
         "runtime": {
@@ -1080,12 +1080,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Allure.Commons/3.5.0.65": {
+    "Allure.Commons/3.5.0.73": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mqJH+32/vE4p9Q1VsSATJq71/sv5//8c9aH8A6rC8+vWyF4KlZpkr6BfK0hScDuNuZldO3nmyKgyUfCFGoWc+w==",
-      "path": "allure.commons/3.5.0.65",
-      "hashPath": "allure.commons.3.5.0.65.nupkg.sha512"
+      "sha512": "sha512-cqMlst9Za1TfOsgN2fWzMkdUeOTy07AZHaudOuRVAjTyBmUxDKOKxCwlkxO1Xw91ogsPCdXIJdduUtFFGw+Thw==",
+      "path": "allure.commons/3.5.0.73",
+      "hashPath": "allure.commons.3.5.0.73.nupkg.sha512"
     },
     "AspectInjector/2.3.1": {
       "type": "package",
