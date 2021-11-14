@@ -1,5 +1,5 @@
 {
-  "reportName" : "Allure Report",
+  "reportName" : "A1QA Allure Report",
   "testRuns" : [ ],
   "statistic" : {
     "failed" : 1,
