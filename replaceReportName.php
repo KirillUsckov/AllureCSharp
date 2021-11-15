@@ -1,5 +1,10 @@
-title = "A1QA Allure Report"
-with open('target\\allure-report\\widgets\\summary.json','r+') as report:
-   x = report.read().replace("Allure Report", title)
-with open('NUnitAllureProject\\allure-report\\widgets\\summary.json','w+') as report:
-    report.write(x)
+<?php 
+$url = ".\\NUnitAllureProject\\allure-report\\widgets\\summary.json";
+$title = "A1QA Allure Report";
+$strings = file_get_contents($url, FILE_USE_INCLUDE_PATH);
+
+$stringsreplace = str_replace("Allure Report", $title, $strings);
+
+file_put_contents($url, $stringsreplace);
+
+?>
