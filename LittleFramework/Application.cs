@@ -43,7 +43,7 @@ namespace LittleFramework
             options.AddArgument("disable-infobars");
             options.AddArgument("--disable-extensions");
             options.AddAdditionalCapability("useAutomationExtension", false);
-            Driver = new ChromeDriver(options);
+            Driver = new RemoteWebDriver(options);
             Driver.Manage().Window.Maximize();
         }
 
