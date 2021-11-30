@@ -1,35 +1,5 @@
 [ {
-  "uid" : "af2dcdfddc11f07f",
-  "name" : "CheckMainPageCanBeOpened",
-  "time" : {
-    "start" : 1636295156455,
-    "stop" : 1636295158642,
-    "duration" : 2187
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "801becd799d08ad9",
-  "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
-  "time" : {
-    "start" : 1636295160136,
-    "stop" : 1636295163417,
-    "duration" : 3281
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2f3817098ca22289",
-  "name" : "CheckSearchingPageWasOpened",
-  "time" : {
-    "start" : 1636295167943,
-    "stop" : 1636295172517,
-    "duration" : 4574
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f122028e105dba0a",
+  "uid" : "c9d33c51d63646ac",
   "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
   "time" : {
     "start" : 1636295163420,
@@ -39,7 +9,37 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a1a45ee4eacb291a",
+  "uid" : "5f25fe8e1f1cce64",
+  "name" : "CheckMainPageCanBeOpened",
+  "time" : {
+    "start" : 1636295156455,
+    "stop" : 1636295158642,
+    "duration" : 2187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8229715b6907d07e",
+  "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+  "time" : {
+    "start" : 1636295160136,
+    "stop" : 1636295163417,
+    "duration" : 3281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "107d84de52c33df8",
+  "name" : "CheckSearchingPageWasOpened",
+  "time" : {
+    "start" : 1636295167943,
+    "stop" : 1636295172517,
+    "duration" : 4574
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee25b6330110437f",
   "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
   "time" : {
     "start" : 1636295609661,

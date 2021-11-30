@@ -1,0 +1,241 @@
+{
+  "uid" : "4978a463e88c2943",
+  "name" : "CheckSearchingPageWasOpened",
+  "fullName" : "NUnitAllureProject.Tests.SearchingTests.CheckSearchingPageWasOpened",
+  "historyId" : "NUnitAllureProject.Tests.SearchingTests.CheckSearchingPageWasOpened",
+  "time" : {
+    "start" : 1629138924353,
+    "stop" : 1629138927292,
+    "duration" : 2939
+  },
+  "description" : "Is Searching result page displayed after searching item\n",
+  "descriptionHtml" : "<p>Is Searching result page displayed after searching item</p>\n",
+  "status" : "passed",
+  "statusMessage" : "CheckSearchingPageWasOpened",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "AllureSetUp",
+    "time" : {
+      "start" : 1629138927291,
+      "stop" : 1629138927291,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629138927291,
+      "stop" : 1629138927291,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "GoToBaseUrl",
+    "time" : {
+      "start" : 1629138927291,
+      "stop" : 1629138927291,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "InitPages",
+    "time" : {
+      "start" : 1629138927291,
+      "stop" : 1629138927291,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Is Searching result page displayed after searching item\n",
+    "status" : "passed",
+    "statusMessage" : "CheckSearchingPageWasOpened",
+    "steps" : [ {
+      "name" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1629138924353,
+        "stop" : 1629138927292,
+        "duration" : 2939
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Go to base URL",
+        "time" : {
+          "start" : 1629138924353,
+          "stop" : 1629138925876,
+          "duration" : 1523
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check is main page opened",
+        "time" : {
+          "start" : 1629138925878,
+          "stop" : 1629138925910,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Search item",
+        "time" : {
+          "start" : 1629138925910,
+          "stop" : 1629138926339,
+          "duration" : 429
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "56516f47a0ce84ba",
+        "name" : "637647465270230998.png",
+        "source" : "56516f47a0ce84ba.png",
+        "type" : "image/png",
+        "size" : 21275
+      }, {
+        "uid" : "711674562c31f4ab",
+        "name" : "Console Output",
+        "source" : "711674562c31f4ab.txt",
+        "type" : "text/plain",
+        "size" : 1215
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1629138927291,
+      "stop" : 1629138927291,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Finally",
+    "time" : {
+      "start" : 1629138927291,
+      "stop" : 1629138927291,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "KAR-KARI4"
+  }, {
+    "name" : "testClass",
+    "value" : "NUnitAllureProject.Tests.SearchingTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckSearchingPageWasOpened"
+  }, {
+    "name" : "package",
+    "value" : "NUnitAllureProject.Tests.SearchingTests"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "feature",
+    "value" : "Searching"
+  }, {
+    "name" : "suite",
+    "value" : "SearchingPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://yandex.ru",
+    "url" : "https://yandex.ru",
+    "type" : "link"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Regression" ]
+  },
+  "source" : "4978a463e88c2943.json",
+  "parameterValues" : [ ]
+}

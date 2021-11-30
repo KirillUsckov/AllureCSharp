@@ -1,0 +1,262 @@
+{
+  "uid" : "bedeb848909ebfb2",
+  "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+  "fullName" : "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+  "historyId" : "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+  "time" : {
+    "start" : 1629139854079,
+    "stop" : 1629139910296,
+    "duration" : 56217
+  },
+  "description" : "Is Infotable displayed after searching item\n",
+  "descriptionHtml" : "<p>Is Infotable displayed after searching item</p>\n",
+  "status" : "passed",
+  "statusMessage" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "AllureSetUp",
+    "time" : {
+      "start" : 1629139910288,
+      "stop" : 1629139910288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629139910288,
+      "stop" : 1629139910288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "GoToBaseUrl",
+    "time" : {
+      "start" : 1629139910288,
+      "stop" : 1629139910288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "InitPages",
+    "time" : {
+      "start" : 1629139910288,
+      "stop" : 1629139910288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Is Infotable displayed after searching item\n",
+    "status" : "passed",
+    "statusMessage" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+    "steps" : [ {
+      "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+      "time" : {
+        "start" : 1629139854079,
+        "stop" : 1629139910290,
+        "duration" : 56211
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Go to base URL",
+        "time" : {
+          "start" : 1629139854081,
+          "stop" : 1629139855212,
+          "duration" : 1131
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check is main page opened",
+        "time" : {
+          "start" : 1629139855221,
+          "stop" : 1629139855264,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Search item",
+        "time" : {
+          "start" : 1629139855264,
+          "stop" : 1629139855533,
+          "duration" : 269
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check is infotable for current searching exist",
+        "time" : {
+          "start" : 1629139855533,
+          "stop" : 1629139856166,
+          "duration" : 633
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "fcd96150f307f89",
+        "name" : "637647474564081676.png",
+        "source" : "fcd96150f307f89.png",
+        "type" : "image/png",
+        "size" : 295145
+      }, {
+        "uid" : "c7205b34f3628ab",
+        "name" : "Console Output",
+        "source" : "c7205b34f3628ab.txt",
+        "type" : "text/plain",
+        "size" : 1956
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1629139910288,
+      "stop" : 1629139910288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Finally",
+    "time" : {
+      "start" : 1629139910288,
+      "stop" : 1629139910288,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "14"
+  }, {
+    "name" : "host",
+    "value" : "KAR-KARI4"
+  }, {
+    "name" : "testClass",
+    "value" : "NUnitAllureProject.Tests.SearchingTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckResultInfotableWasOpeneForSearchingItem"
+  }, {
+    "name" : "package",
+    "value" : "NUnitAllureProject.Tests.SearchingTests"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "feature",
+    "value" : "Searching"
+  }, {
+    "name" : "suite",
+    "value" : "SearchingPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Param #0",
+    "value" : "Google"
+  }, {
+    "name" : "Param #1",
+    "value" : "Google"
+  } ],
+  "links" : [ {
+    "name" : "https://yandex.ru",
+    "url" : "https://yandex.ru",
+    "type" : "link"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Regression" ]
+  },
+  "source" : "bedeb848909ebfb2.json",
+  "parameterValues" : [ "Google", "Google" ]
+}

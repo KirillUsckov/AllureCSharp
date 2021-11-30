@@ -7,7 +7,7 @@
       "name" : "MainPageTests",
       "children" : [ {
         "name" : "CheckMainPageCanBeOpened",
-        "uid" : "af2dcdfddc11f07f",
+        "uid" : "5f25fe8e1f1cce64",
         "parentUid" : "e57a8ef902a978d956b60175baaff2a5",
         "status" : "passed",
         "time" : {
@@ -28,7 +28,7 @@
       "name" : "SearchingTests",
       "children" : [ {
         "name" : "CheckResultInfotableWasOpeneForSearchingItem",
-        "uid" : "801becd799d08ad9",
+        "uid" : "8229715b6907d07e",
         "parentUid" : "195d61b19f75c2b2cf3e5dbee2348e08",
         "status" : "passed",
         "time" : {
@@ -45,7 +45,7 @@
         "parameters" : [ "Google", "Google" ]
       }, {
         "name" : "CheckResultInfotableWasOpeneForSearchingItem",
-        "uid" : "f122028e105dba0a",
+        "uid" : "c9d33c51d63646ac",
         "parentUid" : "195d61b19f75c2b2cf3e5dbee2348e08",
         "status" : "passed",
         "time" : {
@@ -62,7 +62,7 @@
         "parameters" : [ "Яндекс", "Яндекс" ]
       }, {
         "name" : "CheckSearchingPageWasOpened",
-        "uid" : "2f3817098ca22289",
+        "uid" : "107d84de52c33df8",
         "parentUid" : "195d61b19f75c2b2cf3e5dbee2348e08",
         "status" : "passed",
         "time" : {
@@ -79,7 +79,7 @@
         "parameters" : [ ]
       }, {
         "name" : "CheckResultInfotableWasOpeneForSearchingItem",
-        "uid" : "a1a45ee4eacb291a",
+        "uid" : "ee25b6330110437f",
         "parentUid" : "195d61b19f75c2b2cf3e5dbee2348e08",
         "status" : "failed",
         "time" : {

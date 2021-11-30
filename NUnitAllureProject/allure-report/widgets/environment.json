@@ -1,9 +1,9 @@
 [ {
   "values" : [ "Chrome" ],
-  "name" : "ï»¿Browser"
+  "name" : "Browser"
 }, {
   "values" : [ "85.0" ],
-  "name" : "Browser.Version"
+  "name" : "Version"
 }, {
   "values" : [ "Production" ],
   "name" : "Stand"

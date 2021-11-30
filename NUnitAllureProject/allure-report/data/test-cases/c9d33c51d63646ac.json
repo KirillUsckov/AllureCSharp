@@ -1,0 +1,309 @@
+{
+  "uid" : "c9d33c51d63646ac",
+  "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+  "fullName" : "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+  "historyId" : "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+  "time" : {
+    "start" : 1636295163420,
+    "stop" : 1636295167940,
+    "duration" : 4520
+  },
+  "description" : "Is Infotable displayed after searching item\n",
+  "descriptionHtml" : "<p>Is Infotable displayed after searching item</p>\n",
+  "status" : "passed",
+  "statusMessage" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "AllureSetUp",
+    "time" : {
+      "start" : 1636295167939,
+      "stop" : 1636295167939,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Init",
+    "time" : {
+      "start" : 1636295167939,
+      "stop" : 1636295167939,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "GoToBaseUrl",
+    "time" : {
+      "start" : 1636295167939,
+      "stop" : 1636295167939,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "InitPages",
+    "time" : {
+      "start" : 1636295167939,
+      "stop" : 1636295167939,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Is Infotable displayed after searching item\n",
+    "status" : "passed",
+    "statusMessage" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+    "steps" : [ {
+      "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+      "time" : {
+        "start" : 1636295163420,
+        "stop" : 1636295167940,
+        "duration" : 4520
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Go to base URL",
+        "time" : {
+          "start" : 1636295165004,
+          "stop" : 1636295166333,
+          "duration" : 1329
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check is main page opened",
+        "time" : {
+          "start" : 1636295166334,
+          "stop" : 1636295166360,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Search item",
+        "time" : {
+          "start" : 1636295166360,
+          "stop" : 1636295166741,
+          "duration" : 381
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check is infotable for current searching exist",
+        "time" : {
+          "start" : 1636295166741,
+          "stop" : 1636295167646,
+          "duration" : 905
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "e29f578c33bbc5af",
+        "name" : "637719027678319067.png",
+        "source" : "e29f578c33bbc5af.png",
+        "type" : "image/png",
+        "size" : 305683
+      }, {
+        "uid" : "3350d93f1a45d2f6",
+        "name" : "Console Output",
+        "source" : "3350d93f1a45d2f6.txt",
+        "type" : "text/plain",
+        "size" : 1968
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1636295167939,
+      "stop" : 1636295167939,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Finally",
+    "time" : {
+      "start" : 1636295167939,
+      "stop" : 1636295167939,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "KAR-KARI4"
+  }, {
+    "name" : "testClass",
+    "value" : "NUnitAllureProject.Tests.SearchingTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckResultInfotableWasOpeneForSearchingItem"
+  }, {
+    "name" : "package",
+    "value" : "NUnitAllureProject.Tests.SearchingTests"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "feature",
+    "value" : "Searching"
+  }, {
+    "name" : "suite",
+    "value" : "SearchingPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Param #0",
+    "value" : "Яндекс"
+  }, {
+    "name" : "Param #1",
+    "value" : "Яндекс"
+  } ],
+  "links" : [ {
+    "name" : "https://yandex.ru",
+    "url" : "https://yandex.ru",
+    "type" : "link"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "693c126dfc27eefd",
+      "status" : "passed",
+      "statusDetails" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+      "time" : {
+        "start" : 1636289703410,
+        "stop" : 1636289708036,
+        "duration" : 4626
+      }
+    }, {
+      "uid" : "869c525ce74c81bd",
+      "status" : "passed",
+      "statusDetails" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+      "time" : {
+        "start" : 1629226812570,
+        "stop" : 1629226817393,
+        "duration" : 4823
+      }
+    }, {
+      "uid" : "cc7a18049c3eba9",
+      "status" : "passed",
+      "statusDetails" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+      "time" : {
+        "start" : 1629139910328,
+        "stop" : 1629139915010,
+        "duration" : 4682
+      }
+    }, {
+      "uid" : "8d706261e7991a91",
+      "status" : "passed",
+      "statusDetails" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+      "time" : {
+        "start" : 1629138701398,
+        "stop" : 1629138705993,
+        "duration" : 4595
+      }
+    }, {
+      "uid" : "ce46feeaa0616f44",
+      "status" : "passed",
+      "statusDetails" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+      "time" : {
+        "start" : 1629039330400,
+        "stop" : 1629039333930,
+        "duration" : 3530
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Regression" ]
+  },
+  "source" : "c9d33c51d63646ac.json",
+  "parameterValues" : [ "Яндекс", "Яндекс" ]
+}

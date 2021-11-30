@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a1a45ee4eacb291a",
+      "uid" : "ee25b6330110437f",
       "status" : "failed",
       "statusDetails" : "  Table with title 'Убер' should exist on the searching result page, but it doesn't.\r\n  Expected: True\r\n  But was:  False\r\n",
       "time" : {
@@ -29,7 +29,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "801becd799d08ad9",
+      "uid" : "8229715b6907d07e",
       "status" : "passed",
       "statusDetails" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
       "time" : {
@@ -49,7 +49,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2f3817098ca22289",
+      "uid" : "107d84de52c33df8",
       "status" : "passed",
       "statusDetails" : "CheckSearchingPageWasOpened",
       "time" : {
@@ -69,7 +69,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "af2dcdfddc11f07f",
+      "uid" : "5f25fe8e1f1cce64",
       "status" : "passed",
       "statusDetails" : "CheckMainPageCanBeOpened",
       "time" : {
@@ -89,7 +89,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f122028e105dba0a",
+      "uid" : "c9d33c51d63646ac",
       "status" : "passed",
       "statusDetails" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
       "time" : {

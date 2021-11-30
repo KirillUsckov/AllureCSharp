@@ -1,0 +1,224 @@
+{
+  "uid" : "54e3605f593f60b4",
+  "name" : "CheckMainPageCanBeOpened",
+  "fullName" : "NUnitAllureProject.Tests.MainPageTests.CheckMainPageCanBeOpened",
+  "historyId" : "NUnitAllureProject.Tests.MainPageTests.CheckMainPageCanBeOpened",
+  "time" : {
+    "start" : 1629138133014,
+    "stop" : 1629138135012,
+    "duration" : 1998
+  },
+  "description" : "\nTearDown TearDown method failed\nCheck can the main page be opened\n",
+  "descriptionHtml" : "<p>TearDown TearDown method failed<br />\nCheck can the main page be opened</p>\n",
+  "status" : "failed",
+  "statusMessage" : "TearDown : System.IO.IOException : Синтаксическая ошибка в имени файла, имени папки или метке тома. : 'P:\\screenshots\\16.08.2021 21:22:14.png'",
+  "statusTrace" : "--TearDown\r\n   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)\r\n   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at NUnitAllureProject.Tests.Steps.Hooks.TearDown() in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\Steps\\Hooks.cs:line 55",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "AllureSetUp",
+    "time" : {
+      "start" : 1629138135001,
+      "stop" : 1629138135001,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629138135001,
+      "stop" : 1629138135001,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "GoToBaseUrl",
+    "time" : {
+      "start" : 1629138135001,
+      "stop" : 1629138135001,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "InitPages",
+    "time" : {
+      "start" : 1629138135001,
+      "stop" : 1629138135001,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\nTearDown TearDown method failed\nCheck can the main page be opened\n",
+    "status" : "failed",
+    "statusMessage" : "TearDown : System.IO.IOException : Синтаксическая ошибка в имени файла, имени папки или метке тома. : 'P:\\screenshots\\16.08.2021 21:22:14.png'",
+    "statusTrace" : "--TearDown\r\n   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)\r\n   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at NUnitAllureProject.Tests.Steps.Hooks.TearDown() in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\Steps\\Hooks.cs:line 55",
+    "steps" : [ {
+      "name" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629138133014,
+        "stop" : 1629138135006,
+        "duration" : 1992
+      },
+      "status" : "failed",
+      "statusMessage" : "TearDown : System.IO.IOException : Синтаксическая ошибка в имени файла, имени папки или метке тома. : 'P:\\screenshots\\16.08.2021 21:22:14.png'",
+      "statusTrace" : "--TearDown\r\n   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)\r\n   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at NUnitAllureProject.Tests.Steps.Hooks.TearDown() in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\Steps\\Hooks.cs:line 55",
+      "steps" : [ {
+        "name" : "Go to base URL",
+        "time" : {
+          "start" : 1629138133015,
+          "stop" : 1629138134497,
+          "duration" : 1482
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check is main page opened",
+        "time" : {
+          "start" : 1629138134509,
+          "stop" : 1629138134602,
+          "duration" : 93
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "dc4ea8144cdc10c6",
+        "name" : "Console Output",
+        "source" : "dc4ea8144cdc10c6.txt",
+        "type" : "text/plain",
+        "size" : 368
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1629138135001,
+      "stop" : 1629138135001,
+      "duration" : 0
+    },
+    "status" : "failed",
+    "statusMessage" : "TearDown : System.IO.IOException : Синтаксическая ошибка в имени файла, имени папки или метке тома. : 'P:\\screenshots\\16.08.2021 21:22:14.png'",
+    "statusTrace" : "--TearDown\r\n   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)\r\n   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at NUnitAllureProject.Tests.Steps.Hooks.TearDown() in P:\\VisualStudio\\Work\\jae\\NUnitAllureProject\\NUnitAllureProject\\Tests\\Steps\\Hooks.cs:line 55",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  }, {
+    "name" : "DeleteAllScreens",
+    "time" : {
+      "start" : 1629138135002,
+      "stop" : 1629138135002,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "KAR-KARI4"
+  }, {
+    "name" : "testClass",
+    "value" : "NUnitAllureProject.Tests.MainPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckMainPageCanBeOpened"
+  }, {
+    "name" : "package",
+    "value" : "NUnitAllureProject.Tests.MainPageTests"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "MainPage"
+  }, {
+    "name" : "feature",
+    "value" : "MainPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://yandex.ru",
+    "url" : "https://yandex.ru",
+    "type" : "link"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Regression" ]
+  },
+  "source" : "54e3605f593f60b4.json",
+  "parameterValues" : [ ]
+}

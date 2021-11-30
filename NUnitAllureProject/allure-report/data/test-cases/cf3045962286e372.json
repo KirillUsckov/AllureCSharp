@@ -1,0 +1,226 @@
+{
+  "uid" : "cf3045962286e372",
+  "name" : "CheckMainPageCanBeOpened",
+  "fullName" : "NUnitAllureProject.Tests.MainPageTests.CheckMainPageCanBeOpened",
+  "historyId" : "NUnitAllureProject.Tests.MainPageTests.CheckMainPageCanBeOpened",
+  "time" : {
+    "start" : 1629233226555,
+    "stop" : 1629233228432,
+    "duration" : 1877
+  },
+  "description" : "Check can the main page be opened\n",
+  "descriptionHtml" : "<p>Check can the main page be opened</p>\n",
+  "status" : "passed",
+  "statusMessage" : "CheckMainPageCanBeOpened",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "AllureSetUp",
+    "time" : {
+      "start" : 1629233228423,
+      "stop" : 1629233228423,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629233228423,
+      "stop" : 1629233228423,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "GoToBaseUrl",
+    "time" : {
+      "start" : 1629233228423,
+      "stop" : 1629233228423,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "InitPages",
+    "time" : {
+      "start" : 1629233228423,
+      "stop" : 1629233228423,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Check can the main page be opened\n",
+    "status" : "passed",
+    "statusMessage" : "CheckMainPageCanBeOpened",
+    "steps" : [ {
+      "name" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1629233226555,
+        "stop" : 1629233228425,
+        "duration" : 1870
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Go to base URL",
+        "time" : {
+          "start" : 1629233226556,
+          "stop" : 1629233227677,
+          "duration" : 1121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check is main page opened",
+        "time" : {
+          "start" : 1629233227686,
+          "stop" : 1629233227771,
+          "duration" : 85
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "dbd70763c808609c",
+        "name" : "637648408280282009.png",
+        "source" : "dbd70763c808609c.png",
+        "type" : "image/png",
+        "size" : 592677
+      }, {
+        "uid" : "5a1fe4554af0e45c",
+        "name" : "Console Output",
+        "source" : "5a1fe4554af0e45c.txt",
+        "type" : "text/plain",
+        "size" : 368
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1629233228423,
+      "stop" : 1629233228423,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Finally",
+    "time" : {
+      "start" : 1629233228423,
+      "stop" : 1629233228423,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "KAR-KARI4"
+  }, {
+    "name" : "testClass",
+    "value" : "NUnitAllureProject.Tests.MainPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckMainPageCanBeOpened"
+  }, {
+    "name" : "package",
+    "value" : "NUnitAllureProject.Tests.MainPageTests"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "MainPage"
+  }, {
+    "name" : "feature",
+    "value" : "MainPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://yandex.ru",
+    "url" : "https://yandex.ru",
+    "type" : "link"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Regression" ]
+  },
+  "source" : "cf3045962286e372.json",
+  "parameterValues" : [ ]
+}

@@ -5,7 +5,7 @@
     "name" : "MainPage",
     "children" : [ {
       "name" : "CheckMainPageCanBeOpened",
-      "uid" : "af2dcdfddc11f07f",
+      "uid" : "5f25fe8e1f1cce64",
       "parentUid" : "88c6c7107d1a24bef252762777c8a73d",
       "status" : "passed",
       "time" : {
@@ -26,7 +26,7 @@
     "name" : "SearchingPage",
     "children" : [ {
       "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
-      "uid" : "801becd799d08ad9",
+      "uid" : "8229715b6907d07e",
       "parentUid" : "4a9caf41d4c3aee33c2cfc8343cd6cd1",
       "status" : "passed",
       "time" : {
@@ -43,7 +43,7 @@
       "parameters" : [ "Google", "Google" ]
     }, {
       "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
-      "uid" : "f122028e105dba0a",
+      "uid" : "c9d33c51d63646ac",
       "parentUid" : "4a9caf41d4c3aee33c2cfc8343cd6cd1",
       "status" : "passed",
       "time" : {
@@ -60,7 +60,7 @@
       "parameters" : [ "Яндекс", "Яндекс" ]
     }, {
       "name" : "CheckSearchingPageWasOpened",
-      "uid" : "2f3817098ca22289",
+      "uid" : "107d84de52c33df8",
       "parentUid" : "4a9caf41d4c3aee33c2cfc8343cd6cd1",
       "status" : "passed",
       "time" : {
@@ -77,7 +77,7 @@
       "parameters" : [ ]
     }, {
       "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
-      "uid" : "a1a45ee4eacb291a",
+      "uid" : "ee25b6330110437f",
       "parentUid" : "4a9caf41d4c3aee33c2cfc8343cd6cd1",
       "status" : "failed",
       "time" : {
