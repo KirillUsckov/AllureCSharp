@@ -39,7 +39,6 @@ namespace NUnitAllureProject.Tests.Steps
         {
             navigation = new Navigation();
             application = Application.GetInstance();
-            LogManager.GetCurrentClassLogger().Factory.Setup();
         }
 
         [SetUp, Order(1)]
@@ -84,9 +83,8 @@ namespace NUnitAllureProject.Tests.Steps
 
         public void AddLog()
         {
-            var path = application.Configuration.DirPath + "\\logs\\" + "testLogs.log";
-            AllureLifecycle.Instance.AddAttachment(path);
-            LogManager.GetCurrentClassLogger().Factory.Shutdown();
+            var path = application.Configuration.LogsPath;
+            AllureLifecycle.Instance.AddAttachment(Path.Combine(path,"logText.log"));
         }
     }
 }

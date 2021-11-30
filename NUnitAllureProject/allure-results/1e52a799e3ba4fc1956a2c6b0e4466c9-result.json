@@ -1,0 +1,137 @@
+{
+  "uuid": "05c812c1-35c0-401c-9b73-b9ccadb20b61-tr-0-1009",
+  "historyId": "NUnitAllureProject.Tests.SearchingTests.CheckSearchingPageWasOpened",
+  "fullName": "NUnitAllureProject.Tests.SearchingTests.CheckSearchingPageWasOpened",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KAR-KARI4"
+    },
+    {
+      "name": "testClass",
+      "value": "NUnitAllureProject.Tests.SearchingTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSearchingPageWasOpened"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAllureProject.Tests.SearchingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "feature",
+      "value": "Searching"
+    },
+    {
+      "name": "suite",
+      "value": "SearchingPage"
+    }
+  ],
+  "links": [
+    {
+      "name": "https://yandex.ru",
+      "url": "https://yandex.ru",
+      "type": "link"
+    }
+  ],
+  "name": "CheckSearchingPageWasOpened",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TearDown : System.IO.FileNotFoundException : Could not find file 'P:\\VisualStudio\\CSharpAllureNunit\\NUnitAllureProject\\logs\\logText.log'.",
+    "trace": "--TearDown\r\n   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)\r\n   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)\r\n   at System.IO.File.ReadAllBytes(String path)\r\n   at Allure.Commons.AllureLifecycle.AddAttachment(String name, String type, String path)\r\n   at Allure.Commons.AllureLifecycle.AddAttachment(String path, String name)\r\n   at NUnitAllureProject.Tests.Steps.Hooks.AddLog() in P:\\VisualStudio\\CSharpAllureNunit\\NUnitAllureProject\\Tests\\Steps\\Hooks.cs:line 87\r\n   at NUnitAllureProject.Tests.Steps.Hooks.TearDown() in P:\\VisualStudio\\CSharpAllureNunit\\NUnitAllureProject\\Tests\\Steps\\Hooks.cs:line 59"
+  },
+  "stage": "finished",
+  "description": "\nTearDown TearDown method failed\nIs Searching result page displayed after searching item\n",
+  "steps": [
+    {
+      "name": "CheckSearchingPageWasOpened",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "TearDown : System.IO.FileNotFoundException : Could not find file 'P:\\VisualStudio\\CSharpAllureNunit\\NUnitAllureProject\\logs\\logText.log'.",
+        "trace": "--TearDown\r\n   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)\r\n   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)\r\n   at System.IO.File.ReadAllBytes(String path)\r\n   at Allure.Commons.AllureLifecycle.AddAttachment(String name, String type, String path)\r\n   at Allure.Commons.AllureLifecycle.AddAttachment(String path, String name)\r\n   at NUnitAllureProject.Tests.Steps.Hooks.AddLog() in P:\\VisualStudio\\CSharpAllureNunit\\NUnitAllureProject\\Tests\\Steps\\Hooks.cs:line 87\r\n   at NUnitAllureProject.Tests.Steps.Hooks.TearDown() in P:\\VisualStudio\\CSharpAllureNunit\\NUnitAllureProject\\Tests\\Steps\\Hooks.cs:line 59"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Go to base URL",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638296972453,
+          "stop": 1638296973782
+        },
+        {
+          "name": "Check is main page opened",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638296973805,
+          "stop": 1638296973845
+        },
+        {
+          "name": "Search item",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638296973845,
+          "stop": 1638296974233
+        }
+      ],
+      "attachments": [
+        {
+          "name": "637739045756308803.png",
+          "source": "ebff5c4fdd9c4ff1ab2c80d2db15316e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "3e14c3d3d3104d9e8a8941564b4473f1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638296972452,
+      "stop": 1638296975695
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1638296972452,
+  "stop": 1638296975698
+}

@@ -1,0 +1,163 @@
+{
+  "uuid": "b42a97f1-1b9d-4a2c-99e4-020ae45b9c01-tr-0-1007",
+  "historyId": "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+  "fullName": "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KAR-KARI4"
+    },
+    {
+      "name": "testClass",
+      "value": "NUnitAllureProject.Tests.SearchingTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckResultInfotableWasOpeneForSearchingItem"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAllureProject.Tests.SearchingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "feature",
+      "value": "Searching"
+    },
+    {
+      "name": "suite",
+      "value": "SearchingPage"
+    }
+  ],
+  "links": [
+    {
+      "name": "https://yandex.ru",
+      "url": "https://yandex.ru",
+      "type": "link"
+    }
+  ],
+  "name": "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")"
+  },
+  "stage": "finished",
+  "description": "Is Infotable displayed after searching item\n",
+  "steps": [
+    {
+      "name": "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Go to base URL",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638297511574,
+          "stop": 1638297512794
+        },
+        {
+          "name": "Check is main page opened",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638297512795,
+          "stop": 1638297512819
+        },
+        {
+          "name": "Search item",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638297512819,
+          "stop": 1638297513211
+        },
+        {
+          "name": "Check is infotable for current searching exist",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638297513212,
+          "stop": 1638297514067
+        }
+      ],
+      "attachments": [
+        {
+          "name": "637739051143091076.png",
+          "source": "123074f6201747b4a2eccd7c5f3b817a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "logText.log",
+          "source": "3a5890cb1a5941fbb21113b14b2c9f1a-attachment.log",
+          "type": "text/plain"
+        },
+        {
+          "name": "Console Output",
+          "source": "cb30a080534b4db78fbb12f46151facd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638297510073,
+      "stop": 1638297514415
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Яндекс"
+    },
+    {
+      "name": "Param #1",
+      "value": "Яндекс"
+    }
+  ],
+  "start": 1638297510073,
+  "stop": 1638297514415
+}

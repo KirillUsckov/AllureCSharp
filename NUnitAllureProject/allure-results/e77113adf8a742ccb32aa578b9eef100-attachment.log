@@ -1,0 +1,37 @@
+2021-11-30 21:29:33.7850 | INFO | NUnitAllureProject.Tests.SearchingTests | Test case CheckSearchingPageWasOpened
+2021-11-30 21:29:33.8063 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:29:33.8459 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:29:33.9334 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Type text in searching textbox
+2021-11-30 21:29:34.1503 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Click search button
+2021-11-30 21:29:34.1503 | INFO | LittleFramework.Objects.Base.BasePage | Find element with locator: By.XPath: //*[contains(@class,'button') and contains(@class,'search') and @type='submit']
+2021-11-30 21:29:34.2338 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:31:51.1663 | INFO | NUnitAllureProject.Tests.SearchingTests | Test case CheckSearchingPageWasOpened
+2021-11-30 21:31:51.1830 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:31:51.2319 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:31:51.3369 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Type text in searching textbox
+2021-11-30 21:31:51.5501 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Click search button
+2021-11-30 21:31:51.5501 | INFO | LittleFramework.Objects.Base.BasePage | Find element with locator: By.XPath: //*[contains(@class,'button') and contains(@class,'search') and @type='submit']
+2021-11-30 21:31:51.6319 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:32:41.7926 | INFO | NUnitAllureProject.Tests.SearchingTests | Test case CheckSearchingPageWasOpened
+2021-11-30 21:32:41.8192 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:32:41.8564 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:32:42.0637 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Type text in searching textbox
+2021-11-30 21:32:42.2605 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Click search button
+2021-11-30 21:32:42.2605 | INFO | LittleFramework.Objects.Base.BasePage | Find element with locator: By.XPath: //*[contains(@class,'button') and contains(@class,'search') and @type='submit']
+2021-11-30 21:32:42.3449 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:34:26.1515 | INFO | NUnitAllureProject.Tests.SearchingTests | Test case CheckSearchingPageWasOpened
+2021-11-30 21:34:26.1752 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:34:26.2043 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:34:26.2989 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Type text in searching textbox
+2021-11-30 21:34:26.5376 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Click search button
+2021-11-30 21:34:26.5376 | INFO | LittleFramework.Objects.Base.BasePage | Find element with locator: By.XPath: //*[contains(@class,'button') and contains(@class,'search') and @type='submit']
+2021-11-30 21:34:26.6460 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:36:46.7988 | INFO | NUnitAllureProject.Tests.SearchingTests | Test case CheckSearchingPageWasOpened
+2021-11-30 21:36:46.8281 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:36:46.8621 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:36:46.9656 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Type text in searching textbox
+2021-11-30 21:36:47.1884 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Click search button
+2021-11-30 21:36:47.1884 | INFO | LittleFramework.Objects.Base.BasePage | Find element with locator: By.XPath: //*[contains(@class,'button') and contains(@class,'search') and @type='submit']
+2021-11-30 21:36:47.2563 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:37:20.5992 | INFO | NUnitAllureProject.Tests.MainPageTests | Test CheckMainPageCanBeOpened
+2021-11-30 21:37:20.6182 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible

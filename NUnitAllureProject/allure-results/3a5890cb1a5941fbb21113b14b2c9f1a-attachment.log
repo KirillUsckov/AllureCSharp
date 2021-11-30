@@ -1,0 +1,77 @@
+2021-11-30 21:29:33.7850 | INFO | NUnitAllureProject.Tests.SearchingTests | Test case CheckSearchingPageWasOpened
+2021-11-30 21:29:33.8063 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:29:33.8459 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:29:33.9334 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Type text in searching textbox
+2021-11-30 21:29:34.1503 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Click search button
+2021-11-30 21:29:34.1503 | INFO | LittleFramework.Objects.Base.BasePage | Find element with locator: By.XPath: //*[contains(@class,'button') and contains(@class,'search') and @type='submit']
+2021-11-30 21:29:34.2338 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:31:51.1663 | INFO | NUnitAllureProject.Tests.SearchingTests | Test case CheckSearchingPageWasOpened
+2021-11-30 21:31:51.1830 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:31:51.2319 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:31:51.3369 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Type text in searching textbox
+2021-11-30 21:31:51.5501 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Click search button
+2021-11-30 21:31:51.5501 | INFO | LittleFramework.Objects.Base.BasePage | Find element with locator: By.XPath: //*[contains(@class,'button') and contains(@class,'search') and @type='submit']
+2021-11-30 21:31:51.6319 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:32:41.7926 | INFO | NUnitAllureProject.Tests.SearchingTests | Test case CheckSearchingPageWasOpened
+2021-11-30 21:32:41.8192 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:32:41.8564 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:32:42.0637 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Type text in searching textbox
+2021-11-30 21:32:42.2605 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Click search button
+2021-11-30 21:32:42.2605 | INFO | LittleFramework.Objects.Base.BasePage | Find element with locator: By.XPath: //*[contains(@class,'button') and contains(@class,'search') and @type='submit']
+2021-11-30 21:32:42.3449 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:34:26.1515 | INFO | NUnitAllureProject.Tests.SearchingTests | Test case CheckSearchingPageWasOpened
+2021-11-30 21:34:26.1752 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:34:26.2043 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:34:26.2989 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Type text in searching textbox
+2021-11-30 21:34:26.5376 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Click search button
+2021-11-30 21:34:26.5376 | INFO | LittleFramework.Objects.Base.BasePage | Find element with locator: By.XPath: //*[contains(@class,'button') and contains(@class,'search') and @type='submit']
+2021-11-30 21:34:26.6460 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:36:46.7988 | INFO | NUnitAllureProject.Tests.SearchingTests | Test case CheckSearchingPageWasOpened
+2021-11-30 21:36:46.8281 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:36:46.8621 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:36:46.9656 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Type text in searching textbox
+2021-11-30 21:36:47.1884 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Click search button
+2021-11-30 21:36:47.1884 | INFO | LittleFramework.Objects.Base.BasePage | Find element with locator: By.XPath: //*[contains(@class,'button') and contains(@class,'search') and @type='submit']
+2021-11-30 21:36:47.2563 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:37:20.5992 | INFO | NUnitAllureProject.Tests.MainPageTests | Test CheckMainPageCanBeOpened
+2021-11-30 21:37:20.6182 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:37:23.8904 | INFO | NUnitAllureProject.Tests.SearchingTests | Test case CheckResultInfotableWasOpeneForSearchingItem
+2021-11-30 21:37:23.8904 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:37:23.9156 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:37:23.9936 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Type text in searching textbox
+2021-11-30 21:37:24.2105 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Click search button
+2021-11-30 21:37:24.2105 | INFO | LittleFramework.Objects.Base.BasePage | Find element with locator: By.XPath: //*[contains(@class,'button') and contains(@class,'search') and @type='submit']
+2021-11-30 21:37:24.2946 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:37:25.0517 | INFO | LittleFramework.Objects.Pages.SearchingResultsPage | Check is table with title 'Google' exist
+2021-11-30 21:37:25.0517 | INFO | LittleFramework.Objects.Base.BasePage | Find elements with locator: By.XPath: //div[contains(@class,'entity-search__header')]//div[contains(@class,'entity-search__header')]//div[contains(text(),'Google')]
+2021-11-30 21:37:28.1175 | INFO | NUnitAllureProject.Tests.SearchingTests | Test case CheckResultInfotableWasOpeneForSearchingItem
+2021-11-30 21:37:28.1175 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:37:28.1461 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:37:28.2382 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Type text in searching textbox
+2021-11-30 21:37:28.4431 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Click search button
+2021-11-30 21:37:28.4431 | INFO | LittleFramework.Objects.Base.BasePage | Find element with locator: By.XPath: //*[contains(@class,'button') and contains(@class,'search') and @type='submit']
+2021-11-30 21:37:28.5141 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:37:29.3384 | INFO | LittleFramework.Objects.Pages.SearchingResultsPage | Check is table with title 'Убер' exist
+2021-11-30 21:37:29.3384 | INFO | LittleFramework.Objects.Base.BasePage | Find elements with locator: By.XPath: //div[contains(@class,'entity-search__header')]//div[contains(@class,'entity-search__header')]//div[contains(text(),'Убер')]
+2021-11-30 21:38:29.7604 | ERROR | LittleFramework.Objects.Base.BasePage | Error while elements searching:
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 60 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'entity-search__header')]//div[contains(@class,'entity-search__header')]//div[contains(text(),'Убер')]"}
+  (Session info: chrome=96.0.4664.45)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at LittleFramework.Objects.Base.BasePage.FindElements(By locator, TimeSpan timeout) in P:\VisualStudio\CSharpAllureNunit\NUnitAllureProject\Objects\Base\BasePage.cs:line 68
+2021-11-30 21:38:32.7953 | INFO | NUnitAllureProject.Tests.SearchingTests | Test case CheckResultInfotableWasOpeneForSearchingItem
+2021-11-30 21:38:32.7953 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:38:32.8192 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:38:32.9135 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Type text in searching textbox
+2021-11-30 21:38:33.1381 | INFO | LittleFramework.Objects.Pages.SearchingPagePart | Click search button
+2021-11-30 21:38:33.1381 | INFO | LittleFramework.Objects.Base.BasePage | Find element with locator: By.XPath: //*[contains(@class,'button') and contains(@class,'search') and @type='submit']
+2021-11-30 21:38:33.2121 | INFO | LittleFramework.Objects.Base.BasePage | Assert is visible
+2021-11-30 21:38:33.9864 | INFO | LittleFramework.Objects.Pages.SearchingResultsPage | Check is table with title 'Яндекс' exist
+2021-11-30 21:38:33.9864 | INFO | LittleFramework.Objects.Base.BasePage | Find elements with locator: By.XPath: //div[contains(@class,'entity-search__header')]//div[contains(@class,'entity-search__header')]//div[contains(text(),'Яндекс')]

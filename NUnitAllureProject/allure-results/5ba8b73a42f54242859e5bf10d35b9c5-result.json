@@ -1,0 +1,163 @@
+{
+  "uuid": "45e19e7b-8675-4ad3-88f1-b6698f5eafaa-tr-0-1005",
+  "historyId": "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+  "fullName": "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KAR-KARI4"
+    },
+    {
+      "name": "testClass",
+      "value": "NUnitAllureProject.Tests.SearchingTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckResultInfotableWasOpeneForSearchingItem"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAllureProject.Tests.SearchingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "feature",
+      "value": "Searching"
+    },
+    {
+      "name": "suite",
+      "value": "SearchingPage"
+    }
+  ],
+  "links": [
+    {
+      "name": "https://yandex.ru",
+      "url": "https://yandex.ru",
+      "type": "link"
+    }
+  ],
+  "name": "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")"
+  },
+  "stage": "finished",
+  "description": "Is Infotable displayed after searching item\n",
+  "steps": [
+    {
+      "name": "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Go to base URL",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638297442573,
+          "stop": 1638297443887
+        },
+        {
+          "name": "Check is main page opened",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638297443891,
+          "stop": 1638297443915
+        },
+        {
+          "name": "Search item",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638297443915,
+          "stop": 1638297444293
+        },
+        {
+          "name": "Check is infotable for current searching exist",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638297444294,
+          "stop": 1638297445131
+        }
+      ],
+      "attachments": [
+        {
+          "name": "637739050453782864.png",
+          "source": "086e2ab2736144f89bf478affb3353ba-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "logText.log",
+          "source": "9db5763d51d143ac861817cc85d1a114-attachment.log",
+          "type": "text/plain"
+        },
+        {
+          "name": "Console Output",
+          "source": "9adc9338016549ef8ef57dee0c17d1b6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638297442573,
+      "stop": 1638297445497
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Google"
+    },
+    {
+      "name": "Param #1",
+      "value": "Google"
+    }
+  ],
+  "start": 1638297442573,
+  "stop": 1638297445498
+}

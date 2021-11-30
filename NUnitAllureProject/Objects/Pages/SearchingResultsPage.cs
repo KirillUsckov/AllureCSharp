@@ -8,7 +8,7 @@ namespace LittleFramework.Objects.Pages
 {
     public class SearchingResultsPage : BasePage
     {
-        private readonly Logger log = LogManager.GetCurrentClassLogger();
+        private readonly Logger log =  LogManager.GetCurrentClassLogger();
 
         public SearchingResultsPage() : base()
         {

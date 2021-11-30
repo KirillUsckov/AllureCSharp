@@ -1,0 +1,108 @@
+{
+  "uuid": "01df9a20-27df-4a57-adaa-74d0f40710c2-tc-0-1004",
+  "name": "NUnitAllureProject.Tests.SearchingTests.CheckSearchingPageWasOpened",
+  "children": [
+    "4d0c0cff-23b6-4976-89e4-2ec51ff8c6a1-tr-0-1009"
+  ],
+  "befores": [
+    {
+      "name": "AllureSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638296417750,
+      "stop": 1638296417750
+    },
+    {
+      "name": "Init",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638296417750,
+      "stop": 1638296417750
+    },
+    {
+      "name": "GoToBaseUrl",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638296417750,
+      "stop": 1638296417750
+    },
+    {
+      "name": "InitPages",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638296417750,
+      "stop": 1638296417750
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "TearDown : System.IO.FileNotFoundException : Could not find file 'P:\\VisualStudio\\CSharpAllureNunit\\NUnitAllureProject\\logs\\testLogs.log'.",
+        "trace": "--TearDown\r\n   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)\r\n   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)\r\n   at System.IO.File.ReadAllBytes(String path)\r\n   at Allure.Commons.AllureLifecycle.AddAttachment(String name, String type, String path)\r\n   at Allure.Commons.AllureLifecycle.AddAttachment(String path, String name)\r\n   at NUnitAllureProject.Tests.Steps.Hooks.AddLog() in P:\\VisualStudio\\CSharpAllureNunit\\NUnitAllureProject\\Tests\\Steps\\Hooks.cs:line 88\r\n   at NUnitAllureProject.Tests.Steps.Hooks.TearDown() in P:\\VisualStudio\\CSharpAllureNunit\\NUnitAllureProject\\Tests\\Steps\\Hooks.cs:line 60"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638296417750,
+      "stop": 1638296417750
+    },
+    {
+      "name": "Finally",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638296417750,
+      "stop": 1638296417750
+    }
+  ],
+  "links": [],
+  "start": 1638296413544,
+  "stop": 1638296417778
+}
