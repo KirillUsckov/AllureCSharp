@@ -1,0 +1,45 @@
+ -------------- Info (2021-11-30 20:39:23.8031) --------------
+ 
+ Call Site: NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem
+ Additional Info: Test case CheckResultInfotableWasOpeneForSearchingItem
+
+ -------------- Info (2021-11-30 20:39:23.8031) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.AssertIsVisible
+ Additional Info: Assert is visible
+
+ -------------- Info (2021-11-30 20:39:23.8365) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.AssertIsVisible
+ Additional Info: Assert is visible
+
+ -------------- Info (2021-11-30 20:39:23.9724) --------------
+ 
+ Call Site: LittleFramework.Objects.Pages.SearchingPagePart.TypeTextInSearchingTextBox
+ Additional Info: Type text in searching textbox
+
+ -------------- Info (2021-11-30 20:39:24.2534) --------------
+ 
+ Call Site: LittleFramework.Objects.Pages.SearchingPagePart.ClickSearchButton
+ Additional Info: Click search button
+
+ -------------- Info (2021-11-30 20:39:24.2534) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.FindElement
+ Additional Info: Find element with locator: By.XPath: //*[contains(@class,'button') and contains(@class,'search') and @type='submit']
+
+ -------------- Info (2021-11-30 20:39:24.3789) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.AssertIsVisible
+ Additional Info: Assert is visible
+
+ -------------- Info (2021-11-30 20:39:25.2719) --------------
+ 
+ Call Site: LittleFramework.Objects.Pages.SearchingResultsPage.IsTableWithTitlePresent
+ Additional Info: Check is table with title 'Яндекс' exist
+
+ -------------- Info (2021-11-30 20:39:25.2719) --------------
+ 
+ Call Site: LittleFramework.Objects.Base.BasePage.FindElements
+ Additional Info: Find elements with locator: By.XPath: //div[contains(@class,'entity-search__header')]//div[contains(@class,'entity-search__header')]//div[contains(text(),'Яндекс')]
+

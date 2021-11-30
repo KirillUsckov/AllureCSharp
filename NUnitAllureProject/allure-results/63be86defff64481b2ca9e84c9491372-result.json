@@ -1,0 +1,134 @@
+{
+  "uuid": "f029216f-bf5a-4fdf-9aa4-4b813fe1b176-tr-0-1009",
+  "historyId": "NUnitAllureProject.Tests.SearchingTests.CheckSearchingPageWasOpened",
+  "fullName": "NUnitAllureProject.Tests.SearchingTests.CheckSearchingPageWasOpened",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KAR-KARI4"
+    },
+    {
+      "name": "testClass",
+      "value": "NUnitAllureProject.Tests.SearchingTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSearchingPageWasOpened"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAllureProject.Tests.SearchingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "feature",
+      "value": "Searching"
+    },
+    {
+      "name": "suite",
+      "value": "SearchingPage"
+    }
+  ],
+  "links": [
+    {
+      "name": "https://yandex.ru",
+      "url": "https://yandex.ru",
+      "type": "link"
+    }
+  ],
+  "name": "CheckSearchingPageWasOpened",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckSearchingPageWasOpened"
+  },
+  "stage": "finished",
+  "description": "Is Searching result page displayed after searching item\n",
+  "steps": [
+    {
+      "name": "CheckSearchingPageWasOpened",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Go to base URL",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638293968484,
+          "stop": 1638293970155
+        },
+        {
+          "name": "Check is main page opened",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638293970156,
+          "stop": 1638293970189
+        },
+        {
+          "name": "Search item",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638293970190,
+          "stop": 1638293970742
+        }
+      ],
+      "attachments": [
+        {
+          "name": "637739015724336081.png",
+          "source": "3599c82550b14de5884f1a3e0599b1f5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "4892d0da04434585ae12dcf488198258-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638293966412,
+      "stop": 1638293972616
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1638293966412,
+  "stop": 1638293972616
+}
