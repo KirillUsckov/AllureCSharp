@@ -1,21 +1,32 @@
 {
-  "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")" : {
+  "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
-      "uid" : "ee25b6330110437f",
-      "status" : "failed",
-      "statusDetails" : "  Table with title 'Убер' should exist on the searching result page, but it doesn't.\r\n  Expected: True\r\n  But was:  False\r\n",
+      "uid" : "2bf2633e63f9e893",
+      "reportUrl" : "http://localhost/job/Allure/71/allure/#testresult/2bf2633e63f9e893",
+      "status" : "passed",
+      "statusDetails" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
       "time" : {
-        "start" : 1636295609661,
-        "stop" : 1636295673043,
-        "duration" : 63382
+        "start" : 1638294472983,
+        "stop" : 1638294479028,
+        "duration" : 6045
+      }
+    }, {
+      "uid" : "a873e70746d4db31",
+      "reportUrl" : "http://localhost/job/Allure/70/allure/#testresult/a873e70746d4db31",
+      "status" : "passed",
+      "statusDetails" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+      "time" : {
+        "start" : 1638294280893,
+        "stop" : 1638294286997,
+        "duration" : 6104
       }
     } ]
   },
@@ -24,18 +35,60 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
-      "uid" : "8229715b6907d07e",
+      "uid" : "6630f49b15164513",
+      "reportUrl" : "http://localhost/job/Allure/71/allure/#testresult/6630f49b15164513",
       "status" : "passed",
       "statusDetails" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
       "time" : {
-        "start" : 1636295160136,
-        "stop" : 1636295163417,
-        "duration" : 3281
+        "start" : 1638294404405,
+        "stop" : 1638294407808,
+        "duration" : 3403
+      }
+    }, {
+      "uid" : "c812141e5db0c088",
+      "reportUrl" : "http://localhost/job/Allure/70/allure/#testresult/c812141e5db0c088",
+      "status" : "passed",
+      "statusDetails" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+      "time" : {
+        "start" : 1638294211174,
+        "stop" : 1638294214470,
+        "duration" : 3296
+      }
+    } ]
+  },
+  "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "1428c22e8099abe7",
+      "reportUrl" : "http://localhost/job/Allure/71/allure/#testresult/1428c22e8099abe7",
+      "status" : "failed",
+      "statusDetails" : "  Table with title 'Убер' should exist on the searching result page, but it doesn't.\r\n  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1638294407811,
+        "stop" : 1638294472981,
+        "duration" : 65170
+      }
+    }, {
+      "uid" : "5a4daf16a3316bf7",
+      "reportUrl" : "http://localhost/job/Allure/70/allure/#testresult/5a4daf16a3316bf7",
+      "status" : "failed",
+      "statusDetails" : "  Table with title 'Убер' should exist on the searching result page, but it doesn't.\r\n  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1638294214474,
+        "stop" : 1638294280890,
+        "duration" : 66416
       }
     } ]
   },
@@ -44,18 +97,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
-      "uid" : "107d84de52c33df8",
+      "uid" : "81e3bc91f0683429",
+      "reportUrl" : "http://localhost/job/Allure/71/allure/#testresult/81e3bc91f0683429",
       "status" : "passed",
       "statusDetails" : "CheckSearchingPageWasOpened",
       "time" : {
-        "start" : 1636295167943,
-        "stop" : 1636295172517,
-        "duration" : 4574
+        "start" : 1638294479033,
+        "stop" : 1638294484332,
+        "duration" : 5299
+      }
+    }, {
+      "uid" : "16a2553b3f06ab55",
+      "reportUrl" : "http://localhost/job/Allure/70/allure/#testresult/16a2553b3f06ab55",
+      "status" : "passed",
+      "statusDetails" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1638294286999,
+        "stop" : 1638294293299,
+        "duration" : 6300
       }
     } ]
   },
@@ -64,38 +128,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
-      "uid" : "5f25fe8e1f1cce64",
+      "uid" : "4a495f42bad05753",
+      "reportUrl" : "http://localhost/job/Allure/71/allure/#testresult/4a495f42bad05753",
       "status" : "passed",
       "statusDetails" : "CheckMainPageCanBeOpened",
       "time" : {
-        "start" : 1636295156455,
-        "stop" : 1636295158642,
-        "duration" : 2187
+        "start" : 1638294400274,
+        "stop" : 1638294402271,
+        "duration" : 1997
       }
-    } ]
-  },
-  "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c9d33c51d63646ac",
+    }, {
+      "uid" : "542986af6bb76bf3",
+      "reportUrl" : "http://localhost/job/Allure/70/allure/#testresult/542986af6bb76bf3",
       "status" : "passed",
-      "statusDetails" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+      "statusDetails" : "CheckMainPageCanBeOpened",
       "time" : {
-        "start" : 1636295163420,
-        "stop" : 1636295167940,
-        "duration" : 4520
+        "start" : 1638294205225,
+        "stop" : 1638294207589,
+        "duration" : 2364
       }
     } ]
   }

@@ -33,7 +33,7 @@ namespace LittleFramework
             ChromeOptions options = new ChromeOptions();
 
             options.AcceptInsecureCertificates = true;
-            options.AddArgument("--no-sandbox");
+            options.AddArgument("no-sandbox");
             options.AddUserProfilePreference("profile.default_content_setting_values.automatic_downloads", 1);
             options.AddUserProfilePreference("download.prompt_for_download", false);
             options.AddArgument("--disable-popup-blocking");

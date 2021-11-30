@@ -1,30 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
       "name" : "  Table with title 'Убер' should exist on the searching result page, but it doesn't.\r\n  Expected: True\r\n  But was:  False\r\n",
       "children" : [ {
         "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
-        "uid" : "ee25b6330110437f",
+        "uid" : "1428c22e8099abe7",
         "parentUid" : "f85ac227e41a00650a289f65350573ad",
         "status" : "failed",
         "time" : {
-          "start" : 1636295609661,
-          "stop" : 1636295673043,
-          "duration" : 63382
+          "start" : 1638294407811,
+          "stop" : 1638294472981,
+          "duration" : 65170
         },
         "flaky" : false,
         "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 4,
-        "retriesStatusChange" : false,
         "parameters" : [ "Убер", "Убер" ]
       } ],
       "uid" : "f85ac227e41a00650a289f65350573ad"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  } ],
+  "name" : "categories"
 }

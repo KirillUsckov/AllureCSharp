@@ -1,0 +1,386 @@
+{
+  "uid" : "81e3bc91f0683429",
+  "name" : "CheckSearchingPageWasOpened",
+  "fullName" : "NUnitAllureProject.Tests.SearchingTests.CheckSearchingPageWasOpened",
+  "historyId" : "NUnitAllureProject.Tests.SearchingTests.CheckSearchingPageWasOpened",
+  "time" : {
+    "start" : 1638294479033,
+    "stop" : 1638294484332,
+    "duration" : 5299
+  },
+  "description" : "Is Searching result page displayed after searching item\n",
+  "descriptionHtml" : "<p>Is Searching result page displayed after searching item</p>\n",
+  "status" : "passed",
+  "statusMessage" : "CheckSearchingPageWasOpened",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "AllureSetUp",
+    "time" : {
+      "start" : 1638294484330,
+      "stop" : 1638294484330,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Init",
+    "time" : {
+      "start" : 1638294484330,
+      "stop" : 1638294484330,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "GoToBaseUrl",
+    "time" : {
+      "start" : 1638294484330,
+      "stop" : 1638294484330,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "InitPages",
+    "time" : {
+      "start" : 1638294484330,
+      "stop" : 1638294484330,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Is Searching result page displayed after searching item\n",
+    "status" : "passed",
+    "statusMessage" : "CheckSearchingPageWasOpened",
+    "steps" : [ {
+      "name" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1638294479033,
+        "stop" : 1638294484331,
+        "duration" : 5298
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Go to base URL",
+        "time" : {
+          "start" : 1638294480780,
+          "stop" : 1638294482293,
+          "duration" : 1513
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check is main page opened",
+        "time" : {
+          "start" : 1638294482294,
+          "stop" : 1638294482323,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Search item",
+        "time" : {
+          "start" : 1638294482323,
+          "stop" : 1638294482863,
+          "duration" : 540
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "e87229ec866624af",
+        "name" : "637739020842281258.png",
+        "source" : "e87229ec866624af.png",
+        "type" : "image/png",
+        "size" : 131678
+      }, {
+        "uid" : "bc40a73282a8b12f",
+        "name" : "Console Output",
+        "source" : "bc40a73282a8b12f.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1638294484330,
+      "stop" : 1638294484330,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Finally",
+    "time" : {
+      "start" : 1638294484330,
+      "stop" : 1638294484330,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "KAR-KARI4"
+  }, {
+    "name" : "testClass",
+    "value" : "NUnitAllureProject.Tests.SearchingTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckSearchingPageWasOpened"
+  }, {
+    "name" : "package",
+    "value" : "NUnitAllureProject.Tests.SearchingTests"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "feature",
+    "value" : "Searching"
+  }, {
+    "name" : "suite",
+    "value" : "SearchingPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://yandex.ru",
+    "url" : "https://yandex.ru",
+    "type" : "link"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c788fa5c8434938",
+      "status" : "passed",
+      "statusDetails" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1638294286999,
+        "stop" : 1638294293299,
+        "duration" : 6300
+      }
+    }, {
+      "uid" : "f7df3facbec1123d",
+      "status" : "passed",
+      "statusDetails" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1638293966412,
+        "stop" : 1638293972616,
+        "duration" : 6204
+      }
+    }, {
+      "uid" : "9fbd48e917b04e32",
+      "status" : "passed",
+      "statusDetails" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1636295167943,
+        "stop" : 1636295172517,
+        "duration" : 4574
+      }
+    }, {
+      "uid" : "eca53be1f1e2873f",
+      "status" : "passed",
+      "statusDetails" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1636289708040,
+        "stop" : 1636289713433,
+        "duration" : 5393
+      }
+    }, {
+      "uid" : "3f7ac5b5780bba1e",
+      "status" : "passed",
+      "statusDetails" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1629227019301,
+        "stop" : 1629227024300,
+        "duration" : 4999
+      }
+    }, {
+      "uid" : "4776015cf83b73d6",
+      "status" : "passed",
+      "statusDetails" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1629226817395,
+        "stop" : 1629226822410,
+        "duration" : 5015
+      }
+    }, {
+      "uid" : "c39f3c08830f237d",
+      "status" : "passed",
+      "statusDetails" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1629139915013,
+        "stop" : 1629139919861,
+        "duration" : 4848
+      }
+    }, {
+      "uid" : "768136ac2f9f3412",
+      "status" : "passed",
+      "statusDetails" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1629139819551,
+        "stop" : 1629139824008,
+        "duration" : 4457
+      }
+    }, {
+      "uid" : "f776e0c6f98fe454",
+      "status" : "passed",
+      "statusDetails" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1629139575478,
+        "stop" : 1629139578812,
+        "duration" : 3334
+      }
+    }, {
+      "uid" : "8485322e9fd25d45",
+      "status" : "passed",
+      "statusDetails" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1629138924353,
+        "stop" : 1629138927292,
+        "duration" : 2939
+      }
+    }, {
+      "uid" : "614c9f584b4f1ba0",
+      "status" : "passed",
+      "statusDetails" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1629138705994,
+        "stop" : 1629138710104,
+        "duration" : 4110
+      }
+    }, {
+      "uid" : "84a8ef0f317c05f9",
+      "status" : "passed",
+      "statusDetails" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1629136157072,
+        "stop" : 1629136159365,
+        "duration" : 2293
+      }
+    }, {
+      "uid" : "1322f739a2b13b10",
+      "status" : "passed",
+      "statusDetails" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1629135972247,
+        "stop" : 1629135974682,
+        "duration" : 2435
+      }
+    }, {
+      "uid" : "233518dd14b00da1",
+      "status" : "passed",
+      "statusDetails" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1629135887531,
+        "stop" : 1629135889919,
+        "duration" : 2388
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "16a2553b3f06ab55",
+        "reportUrl" : "http://localhost/job/Allure/70/allure/#testresult/16a2553b3f06ab55",
+        "status" : "passed",
+        "statusDetails" : "CheckSearchingPageWasOpened",
+        "time" : {
+          "start" : 1638294286999,
+          "stop" : 1638294293299,
+          "duration" : 6300
+        }
+      } ]
+    },
+    "tags" : [ "Regression" ]
+  },
+  "source" : "81e3bc91f0683429.json",
+  "parameterValues" : [ ]
+}

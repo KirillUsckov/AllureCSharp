@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Allure.Commons;
 using LittleFramework;
 using LittleFramework.Objects.Base;
+using NLog;
 using NLog.Fluent;
 using NUnit.Allure.Core;
 using NUnit.Allure.Steps;
@@ -38,6 +39,7 @@ namespace NUnitAllureProject.Tests.Steps
         {
             navigation = new Navigation();
             application = Application.GetInstance();
+            LogManager.GetCurrentClassLogger().Factory.Setup();
         }
 
         [SetUp, Order(1)]
@@ -55,6 +57,7 @@ namespace NUnitAllureProject.Tests.Steps
             ss.SaveAsFile(path, ScreenshotImageFormat.Png);
             AllureLifecycle.Instance.AddAttachment(path);*/
             MakeScreenshot();
+            AddLog();
             application.CloseDriver();
         }
 
@@ -77,6 +80,13 @@ namespace NUnitAllureProject.Tests.Steps
             var path = application.Configuration.DirPath + "\\screenshots\\" + DateTime.Now.Ticks + ".png";
             ss.SaveAsFile(path, ScreenshotImageFormat.Png);
             AllureLifecycle.Instance.AddAttachment(path);
+        }
+
+        public void AddLog()
+        {
+            var path = application.Configuration.DirPath + "\\logs\\" + "testLogs.log";
+            AllureLifecycle.Instance.AddAttachment(path);
+            LogManager.GetCurrentClassLogger().Factory.Shutdown();
         }
     }
 }

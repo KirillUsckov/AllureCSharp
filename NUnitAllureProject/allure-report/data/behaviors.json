@@ -1,24 +1,19 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
     "name" : "MainPage",
     "children" : [ {
       "name" : "CheckMainPageCanBeOpened",
-      "uid" : "5f25fe8e1f1cce64",
+      "uid" : "4a495f42bad05753",
       "parentUid" : "3c0b4e0236085f78673323b783e6a5fd",
       "status" : "passed",
       "time" : {
-        "start" : 1636295156455,
-        "stop" : 1636295158642,
-        "duration" : 2187
+        "start" : 1638294400274,
+        "stop" : 1638294402271,
+        "duration" : 1997
       },
       "flaky" : false,
       "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 23,
-      "retriesStatusChange" : true,
       "parameters" : [ ]
     } ],
     "uid" : "3c0b4e0236085f78673323b783e6a5fd"
@@ -26,73 +21,58 @@
     "name" : "Searching",
     "children" : [ {
       "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
-      "uid" : "8229715b6907d07e",
+      "uid" : "6630f49b15164513",
       "parentUid" : "363794b58887a7032817dd843b51d7c0",
       "status" : "passed",
       "time" : {
-        "start" : 1636295160136,
-        "stop" : 1636295163417,
-        "duration" : 3281
+        "start" : 1638294404405,
+        "stop" : 1638294407808,
+        "duration" : 3403
       },
       "flaky" : false,
       "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 6,
-      "retriesStatusChange" : false,
       "parameters" : [ "Google", "Google" ]
     }, {
-      "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
-      "uid" : "c9d33c51d63646ac",
-      "parentUid" : "363794b58887a7032817dd843b51d7c0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636295163420,
-        "stop" : 1636295167940,
-        "duration" : 4520
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 5,
-      "retriesStatusChange" : false,
-      "parameters" : [ "Яндекс", "Яндекс" ]
-    }, {
-      "name" : "CheckSearchingPageWasOpened",
-      "uid" : "107d84de52c33df8",
-      "parentUid" : "363794b58887a7032817dd843b51d7c0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636295167943,
-        "stop" : 1636295172517,
-        "duration" : 4574
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 11,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
       "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
-      "uid" : "ee25b6330110437f",
+      "uid" : "1428c22e8099abe7",
       "parentUid" : "363794b58887a7032817dd843b51d7c0",
       "status" : "failed",
       "time" : {
-        "start" : 1636295609661,
-        "stop" : 1636295673043,
-        "duration" : 63382
+        "start" : 1638294407811,
+        "stop" : 1638294472981,
+        "duration" : 65170
       },
       "flaky" : false,
       "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 4,
-      "retriesStatusChange" : false,
       "parameters" : [ "Убер", "Убер" ]
+    }, {
+      "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+      "uid" : "2bf2633e63f9e893",
+      "parentUid" : "363794b58887a7032817dd843b51d7c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638294472983,
+        "stop" : 1638294479028,
+        "duration" : 6045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Яндекс", "Яндекс" ]
+    }, {
+      "name" : "CheckSearchingPageWasOpened",
+      "uid" : "81e3bc91f0683429",
+      "parentUid" : "363794b58887a7032817dd843b51d7c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638294479033,
+        "stop" : 1638294484332,
+        "duration" : 5299
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
     } ],
     "uid" : "363794b58887a7032817dd843b51d7c0"
-  } ]
+  } ],
+  "name" : "behaviors"
 }

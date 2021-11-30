@@ -1,0 +1,107 @@
+{
+  "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c812141e5db0c088",
+      "reportUrl" : "http://localhost/job/Allure/70/allure/#testresult/c812141e5db0c088",
+      "status" : "passed",
+      "statusDetails" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+      "time" : {
+        "start" : 1638294211174,
+        "stop" : 1638294214470,
+        "duration" : 3296
+      }
+    } ]
+  },
+  "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a4daf16a3316bf7",
+      "reportUrl" : "http://localhost/job/Allure/70/allure/#testresult/5a4daf16a3316bf7",
+      "status" : "failed",
+      "statusDetails" : "  Table with title 'Убер' should exist on the searching result page, but it doesn't.\r\n  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1638294214474,
+        "stop" : 1638294280890,
+        "duration" : 66416
+      }
+    } ]
+  },
+  "NUnitAllureProject.Tests.SearchingTests.CheckSearchingPageWasOpened" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "16a2553b3f06ab55",
+      "reportUrl" : "http://localhost/job/Allure/70/allure/#testresult/16a2553b3f06ab55",
+      "status" : "passed",
+      "statusDetails" : "CheckSearchingPageWasOpened",
+      "time" : {
+        "start" : 1638294286999,
+        "stop" : 1638294293299,
+        "duration" : 6300
+      }
+    } ]
+  },
+  "NUnitAllureProject.Tests.MainPageTests.CheckMainPageCanBeOpened" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "542986af6bb76bf3",
+      "reportUrl" : "http://localhost/job/Allure/70/allure/#testresult/542986af6bb76bf3",
+      "status" : "passed",
+      "statusDetails" : "CheckMainPageCanBeOpened",
+      "time" : {
+        "start" : 1638294205225,
+        "stop" : 1638294207589,
+        "duration" : 2364
+      }
+    } ]
+  },
+  "NUnitAllureProject.Tests.SearchingTests.CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a873e70746d4db31",
+      "reportUrl" : "http://localhost/job/Allure/70/allure/#testresult/a873e70746d4db31",
+      "status" : "passed",
+      "statusDetails" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+      "time" : {
+        "start" : 1638294280893,
+        "stop" : 1638294286997,
+        "duration" : 6104
+      }
+    } ]
+  }
+}

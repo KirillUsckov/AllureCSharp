@@ -1,727 +1,25 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
     "name" : "KAR-KARI4",
     "children" : [ {
       "name" : "NonParallelWorker",
       "children" : [ {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "a273b46b303e7194",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629135882999,
-          "stop" : 1629135886330,
-          "duration" : 3331
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "d63f47fbc9df062a",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629138920678,
-          "stop" : 1629138923154,
-          "duration" : 2476
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "362f9190741cd615",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1636289631378,
-          "stop" : 1636289633657,
-          "duration" : 2279
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "d19feb4b08d2833d",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629136048911,
-          "stop" : 1629136050761,
-          "duration" : 1850
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "1ca859209ea3e575",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629135708760,
-          "stop" : 1629135710911,
-          "duration" : 2151
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckSearchingPageWasOpened",
-        "uid" : "46b86aae00fe70d0",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629138705994,
-          "stop" : 1629138710104,
-          "duration" : 4110
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
-        "uid" : "a447c5430c39de2d",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629227015145,
-          "stop" : 1629227019293,
-          "duration" : 4148
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "Google", "Google" ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "8d644de7ef38b23b",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629139572555,
-          "stop" : 1629139574368,
-          "duration" : 1813
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "c954828b5b61e0c8",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629135719050,
-          "stop" : 1629135721238,
-          "duration" : 2188
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckSearchingPageWasOpened",
-        "uid" : "2c17015e18767000",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629227019301,
-          "stop" : 1629227024300,
-          "duration" : 4999
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
-        "uid" : "a759fe1054f937a0",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629226742131,
-          "stop" : 1629226745752,
-          "duration" : 3621
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "Google", "Google" ]
-      }, {
         "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
-        "uid" : "8d706261e7991a91",
+        "uid" : "2bf2633e63f9e893",
         "parentUid" : "c4b1368170e1588c62752a0476faf99d",
         "status" : "passed",
         "time" : {
-          "start" : 1629138701398,
-          "stop" : 1629138705993,
-          "duration" : 4595
+          "start" : 1638294472983,
+          "stop" : 1638294479028,
+          "duration" : 6045
         },
         "flaky" : false,
         "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "Яндекс", "Яндекс" ]
-      }, {
-        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
-        "uid" : "aeeb45c89ded843c",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1636289635196,
-          "stop" : 1636289638299,
-          "duration" : 3103
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "Google", "Google" ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "ca2bb39edde7995c",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629039278195,
-          "stop" : 1629039279693,
-          "duration" : 1498
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
-        "uid" : "d39a9bea2fea3060",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629138632667,
-          "stop" : 1629138636190,
-          "duration" : 3523
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "Google", "Google" ]
-      }, {
-        "name" : "CheckSearchingPageWasOpened",
-        "uid" : "8706e3d649459b2e",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1636289708040,
-          "stop" : 1636289713433,
-          "duration" : 5393
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckSearchingPageWasOpened",
-        "uid" : "4ba94f998d69da4",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629139575478,
-          "stop" : 1629139578812,
-          "duration" : 3334
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "48f059df4dee8071",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629136152429,
-          "stop" : 1629136155866,
-          "duration" : 3437
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckSearchingPageWasOpened",
-        "uid" : "ade8fccc77b3b515",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629135972247,
-          "stop" : 1629135974682,
-          "duration" : 2435
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "8998bb0821e7be03",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629137044302,
-          "stop" : 1629137046411,
-          "duration" : 2109
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
-        "uid" : "1dd5a9cc7345d96f",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629039283001,
-          "stop" : 1629039330398,
-          "duration" : 47397
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "Убер", "Убер" ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "3e906f4a58930546",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629135967719,
-          "stop" : 1629135971055,
-          "duration" : 3336
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "97331f092f6ff68e",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629138629089,
-          "stop" : 1629138631471,
-          "duration" : 2382
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "2065f412f4fbf83f",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629233062994,
-          "stop" : 1629233064822,
-          "duration" : 1828
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckSearchingPageWasOpened",
-        "uid" : "f632c1eabf159d6c",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629136157072,
-          "stop" : 1629136159365,
-          "duration" : 2293
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckSearchingPageWasOpened",
-        "uid" : "9449302ff43ec5f6",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629135887531,
-          "stop" : 1629135889919,
-          "duration" : 2388
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
-        "uid" : "ed2da7fcb743af92",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629226745761,
-          "stop" : 1629226812568,
-          "duration" : 66807
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "Убер", "Убер" ]
-      }, {
-        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
-        "uid" : "8229715b6907d07e",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1636295160136,
-          "stop" : 1636295163417,
-          "duration" : 3281
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 6,
-        "retriesStatusChange" : false,
-        "parameters" : [ "Google", "Google" ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "cf3045962286e372",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629233226555,
-          "stop" : 1629233228432,
-          "duration" : 1877
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "5f25fe8e1f1cce64",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1636295156455,
-          "stop" : 1636295158642,
-          "duration" : 2187
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 23,
-        "retriesStatusChange" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "dc129dd1d4efb052",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629227011012,
-          "stop" : 1629227013927,
-          "duration" : 2915
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
-        "uid" : "391c354b254ac1f0",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1636289638303,
-          "stop" : 1636289703408,
-          "duration" : 65105
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "Убер", "Убер" ]
-      }, {
-        "name" : "CheckSearchingPageWasOpened",
-        "uid" : "4978a463e88c2943",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629138924353,
-          "stop" : 1629138927292,
-          "duration" : 2939
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
-        "uid" : "869c525ce74c81bd",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629226812570,
-          "stop" : 1629226817393,
-          "duration" : 4823
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "Яндекс", "Яндекс" ]
-      }, {
-        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
-        "uid" : "693c126dfc27eefd",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1636289703410,
-          "stop" : 1636289708036,
-          "duration" : 4626
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
         "parameters" : [ "Яндекс", "Яндекс" ]
       }, {
         "name" : "CheckMainPageCanBeOpened",
-        "uid" : "2ec67dba4261e957",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629226738524,
-          "stop" : 1629226740913,
-          "duration" : 2389
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "1ed6e500214b57c0",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629138019701,
-          "stop" : 1629138021695,
-          "duration" : 1994
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "54e3605f593f60b4",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629138133014,
-          "stop" : 1629138135012,
-          "duration" : 1998
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
-        "uid" : "c9d33c51d63646ac",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1636295163420,
-          "stop" : 1636295167940,
-          "duration" : 4520
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 5,
-        "retriesStatusChange" : false,
-        "parameters" : [ "Яндекс", "Яндекс" ]
-      }, {
-        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
-        "uid" : "2ed5d5c8ae62a37f",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629138636192,
-          "stop" : 1629138701397,
-          "duration" : 65205
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "Убер", "Убер" ]
-      }, {
-        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
-        "uid" : "ce46feeaa0616f44",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629039330400,
-          "stop" : 1629039333930,
-          "duration" : 3530
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "Яндекс", "Яндекс" ]
-      }, {
-        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
-        "uid" : "ee25b6330110437f",
-        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1636295609661,
-          "stop" : 1636295673043,
-          "duration" : 63382
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 4,
-        "retriesStatusChange" : false,
-        "parameters" : [ "Убер", "Убер" ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "8c05d6652cb22333",
+        "uid" : "629ede923fbc19da",
         "parentUid" : "c4b1368170e1588c62752a0476faf99d",
         "status" : "passed",
         "time" : {
@@ -731,14 +29,322 @@
         },
         "flaky" : false,
         "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+        "uid" : "7efe64bbd14ace56",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629138701398,
+          "stop" : 1629138705993,
+          "duration" : 4595
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Яндекс", "Яндекс" ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "9cbd4da716f6417d",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629138629089,
+          "stop" : 1629138631471,
+          "duration" : 2382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+        "uid" : "16989d9a01d11b42",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629039330400,
+          "stop" : 1629039333930,
+          "duration" : 3530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Яндекс", "Яндекс" ]
+      }, {
+        "name" : "CheckSearchingPageWasOpened",
+        "uid" : "614c9f584b4f1ba0",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629138705994,
+          "stop" : 1629138710104,
+          "duration" : 4110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "709f5d74f33f1a0f",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629233062994,
+          "stop" : 1629233064822,
+          "duration" : 1828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+        "uid" : "3eda5b5125b5c4a3",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629138636192,
+          "stop" : 1629138701397,
+          "duration" : 65205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Убер", "Убер" ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "6bdd7600003eb1b2",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629135719050,
+          "stop" : 1629135721238,
+          "duration" : 2188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+        "uid" : "6630f49b15164513",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638294404405,
+          "stop" : 1638294407808,
+          "duration" : 3403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Google", "Google" ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "9868f84824d1f554",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629135708760,
+          "stop" : 1629135710911,
+          "duration" : 2151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "f368a128d1311656",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629135967719,
+          "stop" : 1629135971055,
+          "duration" : 3336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+        "uid" : "8518a675b06e09e2",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636289635196,
+          "stop" : 1636289638299,
+          "duration" : 3103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Google", "Google" ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "bdb89b846f8f38a7",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629138920678,
+          "stop" : 1629138923154,
+          "duration" : 2476
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "4a495f42bad05753",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638294400274,
+          "stop" : 1638294402271,
+          "duration" : 1997
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "ccdfab13c004b165",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136048911,
+          "stop" : 1629136050761,
+          "duration" : 1850
+        },
+        "flaky" : false,
+        "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "CheckSearchingPageWasOpened",
-        "uid" : "107d84de52c33df8",
+        "uid" : "233518dd14b00da1",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629135887531,
+          "stop" : 1629135889919,
+          "duration" : 2388
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "42fa50dc08a59775",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136152429,
+          "stop" : 1629136155866,
+          "duration" : 3437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+        "uid" : "8d8e6753f91f9e6d",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629227015145,
+          "stop" : 1629227019293,
+          "duration" : 4148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Google", "Google" ]
+      }, {
+        "name" : "CheckSearchingPageWasOpened",
+        "uid" : "1322f739a2b13b10",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629135972247,
+          "stop" : 1629135974682,
+          "duration" : 2435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "a2386f6f20bff31f",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629226738524,
+          "stop" : 1629226740913,
+          "duration" : 2389
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+        "uid" : "73b6e68f4cc537de",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1636289638303,
+          "stop" : 1636289703408,
+          "duration" : 65105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Убер", "Убер" ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+        "uid" : "c1a39523a4886f6c",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629039283001,
+          "stop" : 1629039330398,
+          "duration" : 47397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Убер", "Убер" ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "d09088e375f599d8",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638294205225,
+          "stop" : 1638294207589,
+          "duration" : 2364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+        "uid" : "c4da51c79c5e2a67",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629138632667,
+          "stop" : 1629138636190,
+          "duration" : 3523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Google", "Google" ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+        "uid" : "7ddac48695535607",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636289703410,
+          "stop" : 1636289708036,
+          "duration" : 4626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Яндекс", "Яндекс" ]
+      }, {
+        "name" : "CheckSearchingPageWasOpened",
+        "uid" : "9fbd48e917b04e32",
         "parentUid" : "c4b1368170e1588c62752a0476faf99d",
         "status" : "passed",
         "time" : {
@@ -748,31 +354,36 @@
         },
         "flaky" : false,
         "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 11,
-        "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
-        "uid" : "95051fba541ca710",
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+        "uid" : "3c7ee88bbf7c5d02",
         "parentUid" : "c4b1368170e1588c62752a0476faf99d",
-        "status" : "passed",
+        "status" : "failed",
         "time" : {
-          "start" : 1629039280828,
-          "stop" : 1629039283000,
-          "duration" : 2172
+          "start" : 1636295609661,
+          "stop" : 1636295673043,
+          "duration" : 63382
         },
         "flaky" : false,
         "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "Google", "Google" ]
+        "parameters" : [ "Убер", "Убер" ]
       }, {
         "name" : "CheckSearchingPageWasOpened",
-        "uid" : "b5e060a00d3e18d3",
+        "uid" : "f7df3facbec1123d",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638293966412,
+          "stop" : 1638293972616,
+          "duration" : 6204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckSearchingPageWasOpened",
+        "uid" : "4776015cf83b73d6",
         "parentUid" : "c4b1368170e1588c62752a0476faf99d",
         "status" : "passed",
         "time" : {
@@ -782,35 +393,417 @@
         },
         "flaky" : false,
         "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+        "uid" : "f7979ac69d7f8a9f",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638294211174,
+          "stop" : 1638294214470,
+          "duration" : 3296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Google", "Google" ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+        "uid" : "1428c22e8099abe7",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638294407811,
+          "stop" : 1638294472981,
+          "duration" : 65170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Убер", "Убер" ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "e395c57d51168519",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636289631378,
+          "stop" : 1636289633657,
+          "duration" : 2279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "cd85f799dbd644e6",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629138133014,
+          "stop" : 1629138135012,
+          "duration" : 1998
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+        "uid" : "96bc8c649e93d34e",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629226812570,
+          "stop" : 1629226817393,
+          "duration" : 4823
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Яндекс", "Яндекс" ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+        "uid" : "ddaded9f09cb8c7a",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629226742131,
+          "stop" : 1629226745752,
+          "duration" : 3621
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Google", "Google" ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+        "uid" : "1cc424d30af58c16",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638294214474,
+          "stop" : 1638294280890,
+          "duration" : 66416
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Убер", "Убер" ]
+      }, {
+        "name" : "CheckSearchingPageWasOpened",
+        "uid" : "84a8ef0f317c05f9",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136157072,
+          "stop" : 1629136159365,
+          "duration" : 2293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "f5fc8935a254959c",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636295156455,
+          "stop" : 1636295158642,
+          "duration" : 2187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckSearchingPageWasOpened",
+        "uid" : "81e3bc91f0683429",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638294479033,
+          "stop" : 1638294484332,
+          "duration" : 5299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "3d4edd718071b13d",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629039278195,
+          "stop" : 1629039279693,
+          "duration" : 1498
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "2dcb4cbe0da22fc9",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629227011012,
+          "stop" : 1629227013927,
+          "duration" : 2915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "2716958f72faac61",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629138019701,
+          "stop" : 1629138021695,
+          "duration" : 1994
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+        "uid" : "838b660852f8557",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638293890151,
+          "stop" : 1638293894017,
+          "duration" : 3866
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Google", "Google" ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+        "uid" : "6fdb324f577e5acf",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638293959993,
+          "stop" : 1638293966398,
+          "duration" : 6405
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Яндекс", "Яндекс" ]
+      }, {
+        "name" : "CheckSearchingPageWasOpened",
+        "uid" : "3f7ac5b5780bba1e",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629227019301,
+          "stop" : 1629227024300,
+          "duration" : 4999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+        "uid" : "3c1e8b5297f1e37",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629039280828,
+          "stop" : 1629039283000,
+          "duration" : 2172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Google", "Google" ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+        "uid" : "a1de723abb9d3174",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638293894024,
+          "stop" : 1638293959990,
+          "duration" : 65966
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Убер", "Убер" ]
+      }, {
+        "name" : "CheckSearchingPageWasOpened",
+        "uid" : "eca53be1f1e2873f",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636289708040,
+          "stop" : 1636289713433,
+          "duration" : 5393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckSearchingPageWasOpened",
+        "uid" : "c788fa5c8434938",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638294286999,
+          "stop" : 1638294293299,
+          "duration" : 6300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "9701ff9357e2ade0",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629135882999,
+          "stop" : 1629135886330,
+          "duration" : 3331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckSearchingPageWasOpened",
+        "uid" : "f776e0c6f98fe454",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629139575478,
+          "stop" : 1629139578812,
+          "duration" : 3334
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+        "uid" : "bb1548ebe74d2665",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636295163420,
+          "stop" : 1636295167940,
+          "duration" : 4520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Яндекс", "Яндекс" ]
+      }, {
+        "name" : "CheckSearchingPageWasOpened",
+        "uid" : "8485322e9fd25d45",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629138924353,
+          "stop" : 1629138927292,
+          "duration" : 2939
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
+        "uid" : "6b0dcce75c62ca87",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638294280893,
+          "stop" : 1638294286997,
+          "duration" : 6104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Яндекс", "Яндекс" ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+        "uid" : "3eb964e8dc669cd4",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636295160136,
+          "stop" : 1636295163417,
+          "duration" : 3281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Google", "Google" ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "438848141cd8efe1",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638293885235,
+          "stop" : 1638293888121,
+          "duration" : 2886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "d65fa3ce983d7a46",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629233226555,
+          "stop" : 1629233228432,
+          "duration" : 1877
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Убер\",\"Убер\")",
+        "uid" : "6319c28c29b8b850",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629226745761,
+          "stop" : 1629226812568,
+          "duration" : 66807
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Убер", "Убер" ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "efb5fbcf27aa5c4a",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629137044302,
+          "stop" : 1629137046411,
+          "duration" : 2109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "e2edfbfc8631b8f7",
+        "parentUid" : "c4b1368170e1588c62752a0476faf99d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629139572555,
+          "stop" : 1629139574368,
+          "duration" : 1813
+        },
+        "flaky" : false,
+        "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "c4b1368170e1588c62752a0476faf99d"
     }, {
       "name" : "14",
       "children" : [ {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "31e1dbc42d66fa97",
-        "parentUid" : "7e4381ab5b107ca5b17be1c3060fbefb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629136502864,
-          "stop" : 1629136547798,
-          "duration" : 44934
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "CheckSearchingPageWasOpened",
-        "uid" : "4e4ce2bb3b46ab23",
+        "uid" : "c39f3c08830f237d",
         "parentUid" : "7e4381ab5b107ca5b17be1c3060fbefb",
         "status" : "passed",
         "time" : {
@@ -820,14 +813,10 @@
         },
         "flaky" : false,
         "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
         "name" : "CheckSearchingPageWasOpened",
-        "uid" : "1e64943589d63e36",
+        "uid" : "768136ac2f9f3412",
         "parentUid" : "7e4381ab5b107ca5b17be1c3060fbefb",
         "status" : "passed",
         "time" : {
@@ -837,82 +826,10 @@
         },
         "flaky" : false,
         "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "88f8c79f82e57340",
-        "parentUid" : "7e4381ab5b107ca5b17be1c3060fbefb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629139794702,
-          "stop" : 1629139798416,
-          "duration" : 3714
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
-        "uid" : "bedeb848909ebfb2",
-        "parentUid" : "7e4381ab5b107ca5b17be1c3060fbefb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629139854079,
-          "stop" : 1629139910296,
-          "duration" : 56217
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "Google", "Google" ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "9307b571c0eba18d",
-        "parentUid" : "7e4381ab5b107ca5b17be1c3060fbefb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629138429085,
-          "stop" : 1629138437958,
-          "duration" : 8873
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckMainPageCanBeOpened",
-        "uid" : "38368f6df3c3f74f",
-        "parentUid" : "7e4381ab5b107ca5b17be1c3060fbefb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629139812535,
-          "stop" : 1629139815987,
-          "duration" : 3452
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
         "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Яндекс\",\"Яндекс\")",
-        "uid" : "cc7a18049c3eba9",
+        "uid" : "59fb5c84e23773f4",
         "parentUid" : "7e4381ab5b107ca5b17be1c3060fbefb",
         "status" : "passed",
         "time" : {
@@ -922,14 +839,76 @@
         },
         "flaky" : false,
         "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
         "parameters" : [ "Яндекс", "Яндекс" ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "d206b3eac02293ac",
+        "parentUid" : "7e4381ab5b107ca5b17be1c3060fbefb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629139812535,
+          "stop" : 1629139815987,
+          "duration" : 3452
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckResultInfotableWasOpeneForSearchingItem(\"Google\",\"Google\")",
+        "uid" : "255228786f597fef",
+        "parentUid" : "7e4381ab5b107ca5b17be1c3060fbefb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629139854079,
+          "stop" : 1629139910296,
+          "duration" : 56217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Google", "Google" ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "b78c0073e8d707d7",
+        "parentUid" : "7e4381ab5b107ca5b17be1c3060fbefb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629139794702,
+          "stop" : 1629139798416,
+          "duration" : 3714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "f4a88680d5b1a169",
+        "parentUid" : "7e4381ab5b107ca5b17be1c3060fbefb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136502864,
+          "stop" : 1629136547798,
+          "duration" : 44934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckMainPageCanBeOpened",
+        "uid" : "cc7301de1d8dad7c",
+        "parentUid" : "7e4381ab5b107ca5b17be1c3060fbefb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629138429085,
+          "stop" : 1629138437958,
+          "duration" : 8873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
       } ],
       "uid" : "7e4381ab5b107ca5b17be1c3060fbefb"
     } ],
     "uid" : "ed296753fc37df2162a5741e043ce614"
-  } ]
+  } ],
+  "name" : "timeline"
 }

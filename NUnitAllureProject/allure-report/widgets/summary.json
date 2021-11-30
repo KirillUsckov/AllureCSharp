@@ -1,5 +1,5 @@
 {
-  "reportName" : "A1QA A1QA A1QA Allure Report",
+  "reportName" : "A1QA A1QA Allure Report",
   "testRuns" : [ ],
   "statistic" : {
     "failed" : 1,
@@ -10,11 +10,11 @@
     "total" : 5
   },
   "time" : {
-    "start" : 1636295156455,
-    "stop" : 1636295673043,
-    "duration" : 516588,
-    "minDuration" : 2187,
-    "maxDuration" : 63382,
-    "sumDuration" : 77944
+    "start" : 1638294400274,
+    "stop" : 1638294484332,
+    "duration" : 84058,
+    "minDuration" : 1997,
+    "maxDuration" : 65170,
+    "sumDuration" : 81914
   }
 }
