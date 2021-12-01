@@ -14,6 +14,21 @@ namespace LittleFramework.Objects
 
         public string DirPath { get; private set; }
 
+        public string LogsPath
+        {
+            get
+            {
+                if (Directory.GetCurrentDirectory().Contains("\\bin\\Debug"))
+                {
+                    return Path.Combine(Directory.GetCurrentDirectory(), "logs");
+                }
+                else
+                {
+                    return Path.Combine(Directory.GetCurrentDirectory(), "bin", "Debug", "netcoreapp3.1", "logs");
+                }
+            }
+        }
+
         public Configuration()
         {
             //var baseDir = AppDomain.CurrentDomain.BaseDirectory;
